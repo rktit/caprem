@@ -6,7 +6,7 @@ import { Fade } from "react-reveal";
 
 import morada from "../../assets/logo/logo-morada.png";
 import vida from "../../assets/file/sua-vida.png";
-import botão from "../../assets/static/button.jpeg";
+import botão from "../../assets/static/button.png";
 import whats from "../../assets/icon/whatsapp.png";
 
 export default function Page(props) {
@@ -44,7 +44,7 @@ export default function Page(props) {
             <img src={morada} className="w-80 ml-12" />
 
             <div className="">
-              <div className="font-red family-medium font-lg ml-14">
+              <div className="font-red family-regular font-lg ml-14">
                 O Porto Seguro da
               </div>
               <div className=" mb-10 ml-40">
@@ -68,6 +68,7 @@ export default function Page(props) {
                 <input type="email" id="mail" name="user_email" className="formulario font-blue family-bold px-4 py-2 w-4/5 justify-between" placeholder="Digite seu email"></input>
 
                 <a target="_blank" href="https://www.caprem.com.br/">
+                  
                   <img className="flex w-80 h-8 h-16 py-2 w-4/5 mt-2" src={botão} alt="Cadastre-se" />
                 </a>
               </form>

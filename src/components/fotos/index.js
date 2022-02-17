@@ -10,7 +10,7 @@ import foto3 from "../../assets/static/img3.jpeg"
 import foto4 from "../../assets/static/img4.jpeg"
 import foto5 from "../../assets/static/img5.jpeg"
 
-import botão from "../../assets/static/button.jpeg";
+import botão from "../../assets/static/button.png";
 
 
 export default function Page(props) {
@@ -42,29 +42,28 @@ export default function Page(props) {
   return (
     <ScrollableAnchor id={'fotos'}>
       <div className="bg-white w-full">
-        <div className="flex flex-wrap p-4 space-x-4">
 
-          <img src={foto1} className="flex w-64 h-48 pt-4" />
-
-
-          <img src={foto2} className="flex w-64 h-48 pt-4" />
-
-
-          <img src={foto3} className="flex w-64 h-48 pt-4" />
-
-
-          <img src={foto4} className="flex w-64 h-48 pt-4" />
-
-
-          <img src={foto5} className="flex w-64 h-48 pt-4" />
-
-          <div>
+        <div className="flex-col p-4 space-x-4 px-32">
+          <div className="flex">
+            <img src={foto1} className="w-3/5 h-64 pt-2 px-2" />
+            <img src={foto2} className="w-2/5 h-64 pt-2 px-2" />
           </div>
 
+          <div className="flex pt-2 px-2">
+            <div className="flex flex-col pr-2">
+              <img src={foto3} className="flex-auto w-6/6 h-48" />
+              <img src={foto4} className="flex-auto w-6/6 h-48 pt-2" />
+            </div>
+            <img src={foto5} className="flex-auto w-1/2 h-96" />
+          </div>
+        </div>
+
+        <div>
           <a target="_blank" href="https://www.caprem.com.br/">
-            <img className="flex w-80 h-8" src={botão} alt="Cadastre-se" />
+            <img className="flex w-80 h-8 " src={botão} alt="Cadastre-se" />
           </a>
         </div>
+
       </div>
     </ScrollableAnchor>
   );

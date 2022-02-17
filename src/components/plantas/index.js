@@ -2,9 +2,9 @@ import React, { useEffect, useRef, useState } from "react";
 import ScrollableAnchor from "react-scrollable-anchor";
 
 import { Fade } from "react-reveal";
-import planta from "../../assets/static/planta.jpeg";
-import botao53 from "../../assets/static/botao-53.jpeg";
-import botao68 from "../../assets/static/botao-68.jpeg";
+import planta from "../../assets/static/planta.png";
+import botao53 from "../../assets/static/botao53.png";
+import botao68 from "../../assets/static/botao68.png";
 import esquerda from "../../assets/icon/seta-esquerda.png";
 import direita from "../../assets/icon/seta-direita.png";
 
@@ -20,18 +20,28 @@ export default function Page(props) {
   }, [window.innerWidth]);
   return (
     <ScrollableAnchor>
-      <div className="flex plantas w-screen bg-black px-6 md:px-0 py-10 md:py-12">
+      <div className="flex plantas w-screen px-6 py-10">
         <Fade>
-          <div className="flex flex-col items-center">
-            <div className="flex space-x-10 w-48">
+          <div className="flex flex-wrap justify-center p-4">
+
+            <div className="flex justify-items-center items-center w-32">
+              <div className="bg-plantas uppercase font-red font-lg family-bold">Plantas</div>
+            </div>
+
+            <div className="flex w-full">
               <img src={botao53} />
               <img src={botao68} />
             </div>
-            <span className="family-normal font-red text-lg text-right pt-10">
+            
+            <img src={esquerda} />
+            
+            <span className="medium-italic font-red text-lg text-right pt-10">
               Planta Apto Tipo II <br />
               Finais 03, 04, 05 e 06</span>
-              <img src={esquerda} />
-            <img src={planta} className="w-full md:w-4/5 mb-10 items-center" />
+
+            <img src={planta} className="w-full md:w-4/5 mb-10 rounded-3xl pt-10" />
+
+
             <img src={direita} />
 
 

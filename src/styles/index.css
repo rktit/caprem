@@ -2,49 +2,66 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: "SF-Pro-Display-Light";
-  src: url(../assets/fonts/SF-Pro-Display-Light.ttf);
-}
-@font-face {
-  font-family: "SF-Pro-Display-Thin";
-  src: url(../assets/fonts/SF-Pro-Display-Thin.ttf);
-}
-@font-face {
-  font-family: "SF-Pro-Display-Bold";
-  src: url(../assets/fonts/SF-Pro-Display-Bold.ttf);
-}
-@font-face {
-  font-family: "SF-Pro-Display-Medium";
-  src: url(../assets/fonts/SF-Pro-Display-Medium.ttf);
-}
 
 @font-face {
-  font-family: "Montserrat-Light";
-  src: url(../assets/fonts/Montserrat-Light.ttf);
+  font-family: "JosefinSans-Thin";
+  src: url(../assets/fonts/JosefinSans-Thin.ttf);
 }
 @font-face {
-  font-family: "Montserrat-Thin";
-  src: url(../assets/fonts/Montserrat-Thin.ttf);
+  font-family: "JosefinSans-ThinItalic";
+  src: url(../assets/fonts/JosefinSans-ThinItalic.ttf);
 }
 @font-face {
-  font-family: "Montserrat-Bold";
-  src: url(../assets/fonts/Montserrat-Bold.ttf);
+  font-family: "JosefinSans-ExtraLight";
+  src: url(../assets/fonts/JosefinSans-ExtraLight.ttf);
+}@font-face {
+  font-family: "JosefinSans-ExtraLightItalic";
+  src: url(../assets/fonts/JosefinSans-ExtraLightItalic.ttf);
 }
 @font-face {
-  font-family: "Montserrat-Medium";
-  src: url(../assets/fonts/Montserrat-Medium.ttf);
+  font-family: "JosefinSans-Light";
+  src: url(../assets/fonts/JosefinSans-Light.ttf);
 }
 @font-face {
-  font-family: "Montserrat-Black";
-  src: url(../assets/fonts/Montserrat-Black.ttf);
+  font-family: "JosefinSans-LightItalic";
+  src: url(../assets/fonts/JosefinSans-LightItalic.ttf);
 }
+@font-face {
+  font-family: "JosefinSans-Regular";
+  src: url(../assets/fonts/JosefinSans-Regular.ttf);
+}
+@font-face {
+  font-family: "JosefinSans-Medium";
+  src: url(../assets/fonts/JosefinSans-Medium.ttf);
+}
+@font-face {
+  font-family: "JosefinSans-MediumItalic";
+  src: url(../assets/fonts/JosefinSans-MediumItalic.ttf);
+}
+@font-face {
+  font-family: "JosefinSans-SemiBold";
+  src: url(../assets/fonts/JosefinSans-SemiBold.ttf);
+}
+@font-face {
+  font-family: "JosefinSans-SemiBoldItalic";
+  src: url(../assets/fonts/JosefinSans-SemiBoldItalic.ttf);
+}
+@font-face {
+  font-family: "JosefinSans-Bold";
+  src: url(../assets/fonts/JosefinSans-Bold.ttf);
+}
+@font-face {
+  font-family: "JosefinSans-BoldItalic";
+  src: url(../assets/fonts/JosefinSans-BoldItalic.ttf);
+}
+
+
 
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: "Montserrat-Light", -apple-system, BlinkMacSystemFont, Segoe UI,
+  font-family: "JosefinSans-Light", -apple-system, BlinkMacSystemFont, Segoe UI,
     Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
     sans-serif;
   color: #ffffff;
@@ -62,23 +79,50 @@ a {
 }
 
 .family-thin {
-  font-family: "Montserrat-Thin" !important;
+  font-family: "JosefinSans-Thin" !important;
+}
+.family-thin-italic {
+  font-family: "JosefinSans-ThinItalic" !important;
+}
+.family-extra-light {
+  font-family: "JosefinSans-ExtraLight" !important;
+}
+.family-extra-light-italic {
+  font-family: "JosefinSans-ExtraLightItalic" !important;
 }
 .family-light {
-  font-family: "Montserrat-Light" !important;
+  font-family: "JosefinSans-Light" !important;
+}
+.family-light-italic {
+  font-family: "JosefinSans-LightItalic" !important;
+}
+.family-regular {
+  font-family: "JosefinSans-Regular" !important;
 }
 .family-medium {
-  font-family: "Montserrat-Medium" !important;
+  font-family: "JosefinSans-medium" !important;
+}
+.family-medium-italic {
+  font-family: "JosefinSans-MediumItalic" !important;
+}
+.family-semibold {
+  font-family: "JosefinSans-SemiBold" !important;
+}
+.family-semibold-italic {
+  font-family: "JosefinSans-SemiBoldItalic" !important;
 }
 .family-bold {
-  font-family: "Montserrat-Bold" !important;
+  font-family: "JosefinSans-Bold" !important;
 }
-.family-black {
-  font-family: "Montserrat-Black" !important;
+.family-bold-italic {
+  font-family: "JosefinSans-BoldItalic" !important;
 }
 
 .font-white {
   color: #ffffff !important;
+}
+.font-black {
+  color: #000000 !important;
 }
 .font-red {
   color: #7b183f !important;
@@ -175,12 +219,12 @@ a {
 }
 
 .familia {
-  background: url(../assets/background/bg-familia.jpeg) center no-repeat;
+  background: url(../assets/background/bg-familia.png) center no-repeat;
   background-size: cover;
 }
 
 .entreter {
-  background: url(../assets/background/bg-entreter.jpeg) center no-repeat;
+  background: url(../assets/background/bg-entreter.png) center no-repeat;
   background-size: cover;
 }
 
@@ -276,7 +320,7 @@ a {
 }
 
 .bg-salao {
-  background: url(../assets/file//salao.png) no-repeat;
+  background: url(../assets/file/salao.png) no-repeat;
   background-size: cover;
 }
 
@@ -313,7 +357,7 @@ a {
 }
 
 strong {
-  font-family: SF-Pro-Display-Bold;
+  font-family: JosefinSans-Light;
 }
 
 .formulario {
@@ -341,7 +385,7 @@ strong {
   }
   .topo {
     background: url(../assets/background/bg-topo.jpeg) center 80% black
-      fixed;
+      ;
     height: 650px;
   }
 

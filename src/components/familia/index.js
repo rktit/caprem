@@ -5,7 +5,7 @@ import { Fade } from "react-reveal";
 import Contrate from "../contrate";
 
 import infos from "../../assets/file/Infos.png";
-import botão from "../../assets/static/button.jpeg";
+import botão from "../../assets/static/button.png";
 
 
 import CardIcone from "../cardIcone";
@@ -28,7 +28,7 @@ export default function Page(props) {
 
             <div className="flex ">
               <div className="bg-familia">
-                <strong className="font-lg font-red font-medium text-left">Lar e Lazer para toda a família!</strong>
+                <strong className="font-lg font-red family-regular text-left">Lar e Lazer para toda a família!</strong>
               </div>
             </div>
             <div className="family-light font-medium font-blue text-left">
