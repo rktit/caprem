@@ -209,6 +209,23 @@ a {
   }
 }
 
+.title-topo {
+  font-size: 3rem;
+}
+
+.topo-img-vida {
+  position: absolute;
+  margin-top: -72px;
+  margin-left: 164px;
+}
+
+.button-cadastro {
+  background-color: #7b183f;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 1em;
+}
+
 .bars-tecnology {
   animation-name: slidein;
 }
@@ -219,18 +236,47 @@ a {
 }
 
 .familia {
-  background: url(../assets/background/bg-familia.png) center no-repeat;
-  background-size: cover;
+  display: flex;
+  align-items: center;
+  background-color: #f5f5f2;
+  background: url(../assets/background/bg-familia.png) bottom center no-repeat;
+  height: 60vh;
 }
 
 .entreter {
-  background: url(../assets/background/bg-entreter.png) center no-repeat;
+  background: url(../assets/background/bg-entreter.png) top center no-repeat;
   background-size: cover;
 }
 
-.descricao {
-  background: url(../assets/background/descricao.jpeg) center no-repeat;
-  background-size: 100%;
+.entreter-box {
+  display: flex;
+  align-items: center;
+}
+
+.entreter-title {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  font-size: 2.5em;
+}
+
+.entreter-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.entreter-text {
+  font-size: 2em;
+}
+
+.descricao-text {
+  font-size: 2em;
+}
+
+.descricao-image {
+  position: absolute;
+  margin-top: -100px;
+  margin-left: -3rem;;
 }
 
 .plantas {
@@ -290,38 +336,32 @@ a {
 
 
 .bg-familia {
-  background: url(../assets/file/lar.png) no-repeat;
-  background-size: cover;
+  background: url(../assets/file/lar.png) center no-repeat;
 }
 
 .bg-piscina {
-  background: url(../assets/file/piscina.png) no-repeat;
-  background-size: cover;
+  background: url(../assets/file/piscina.png) center no-repeat;
 }
 
 .bg-plantas {
-  background: url(../assets/file/Plantas.png) no-repeat;
-  background-size: cover;
+  background: url(../assets/file/Plantas.png) center no-repeat;
 }
 
 .bg-playground {
-  background: url(../assets/file/Playground.png) no-repeat;
-  background-size: cover;
+  background: url(../assets/file/Playground.png) center no-repeat;
 }
 
 .bg-quadra {
-  background: url(../assets/file/quadra.png) no-repeat;
-  background-size: cover;
+  background: url(../assets/file/quadra.png) center no-repeat;
 }
 
 .bg-quiosque {
-  background: url(../assets/file/Quiosques.png) no-repeat;
-  background-size: cover;
+  background: url(../assets/file/Quiosques.png) left center no-repeat;
+  padding-left: 48px;
 }
 
 .bg-salao {
-  background: url(../assets/file/salao.png) no-repeat;
-  background-size: cover;
+  background: url(../assets/file/salao.png) center no-repeat;
 }
 
 
