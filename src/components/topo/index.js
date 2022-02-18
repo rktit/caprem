@@ -93,7 +93,7 @@ export default function Page(props) {
           </div>
         </Fade>
 
-        <div className="fixed right-16 bottom-16">
+        <div className="fixed right-16 bottom-16 whats-message">
           <a
             target="_blank"
             href="https://api.whatsapp.com/send?phone=5519999521441"

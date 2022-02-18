@@ -280,8 +280,7 @@ a {
 }
 
 .plantas {
-  background: url(../assets/background/bg-planta.jpeg) center no-repeat;
-  background-size: cover;
+  background: url(../assets/background/bg-planta.jpeg) top center no-repeat;
 }
 
 .mapa {
@@ -344,7 +343,31 @@ a {
 }
 
 .bg-plantas {
-  background: url(../assets/file/Plantas.png) center no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(../assets/file/Plantas.png) top no-repeat;
+  height: 124px;
+  font-size: 3em;
+}
+
+.box-planta {
+  padding: 2em;
+  background-color: #fff;
+  border-radius: 3rem;
+  line-height: 150%;
+}
+
+.planta-info {
+  font-size: 2em;
+}
+
+.planta-attention strong{
+  font-family: "JosefinSans-Bold" !important;
+}
+
+.planta-attention {
+  font-size: 1.4em;
 }
 
 .bg-playground {
@@ -406,7 +429,9 @@ strong {
   border-radius: 8px;
 }
 
-
+.whats-message {
+  z-index: 999;
+}
 
 
 @media (max-width: 1400px) {
