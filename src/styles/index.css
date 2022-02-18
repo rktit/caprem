@@ -433,6 +433,23 @@ strong {
   z-index: 999;
 }
 
+.mapa-title {
+  font-size: 2.6em;
+}
+
+.mapa-desc {
+  font-size: 2.2em;
+}
+
+.mapa-phone {
+  font-size: 2.4em;
+}
+
+.mapa-address {
+  font-size: 2.4em;
+  line-height: 120%;
+}
+
 
 @media (max-width: 1400px) {
 }
