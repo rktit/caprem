@@ -36,7 +36,7 @@ export default function Page(props) {
 
   return (
     <ScrollableAnchor id={'home'}>
-      <div className="topo w-screen h-screen">
+      <div className="topo">
         <Fade>
           <div className="flex flex-col ml-24">
             <img src={morada} className=" ml-12" width="500" />
