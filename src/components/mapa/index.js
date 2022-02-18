@@ -6,15 +6,6 @@ import mapa from '../../assets/static/mapa.jpg'
 import whatsapp from '../../assets/icon/whats.png'
 
 export default function Page(props) {
-  const [loading, setLoading] = useState(false)
-  const [isMobile, setMobile] = useState(false)
-  useEffect(() => {
-    if (window.innerWidth >= 992) {
-      setMobile(false)
-    } else {
-      setMobile(true)
-    }
-  }, [window.innerWidth])
   return (
     <ScrollableAnchor id={''}>
       <div className="flex">
