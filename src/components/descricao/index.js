@@ -18,7 +18,7 @@ export default function Page() {
               </div>
 
               <div className="items-center">
-                <div className="pl-14 mt-8 descricao-text font-black family-thin font-medium">
+                <div className="pl-10 mt-8 descricao-text font-black family-extra-light font-medium">
                   <div>
                     O Morada do Porto possui dois tipos de <br />
                     plantas criadas com o propósito de atender <br />a real
@@ -33,7 +33,7 @@ export default function Page() {
                   <br />
 
                   <div>
-                    <strong>Todos os apartamentos possuem:</strong>
+                    <div className='family-bold'>Todos os apartamentos possuem:</div>
                   </div>
 
                   <div>
@@ -49,7 +49,7 @@ export default function Page() {
         </Fade>
 
         <div className="w-1/2">
-          <img src={lar} className="descricao-image" width="950" />
+          <img src={lar} className="descricao-image" width="850" />
         </div>
       </div>
     </ScrollableAnchor>

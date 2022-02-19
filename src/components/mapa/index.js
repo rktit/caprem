@@ -17,12 +17,13 @@ export default function Page(props) {
             </div>
 
             <div className="family-light-italic font-blue font-normal mapa-desc">
+            <br />
               Supermercados, parques, farmácias e muita
               <br />
               qualidade de vida, pertinho de você...
             </div>
 
-            <div className="pt-14">
+            <div className="pt-24">
               <div className="family-medium font-blue">
                 <div className="flex mapa-phone">
                   <a
@@ -36,7 +37,7 @@ export default function Page(props) {
                   </div>
                 </div>
 
-                <div className="font-normal family-semibold mt-4 mapa-address">
+                <div className="font-normal family-semibold mt-2 mapa-address">
                   Av. Pe. Oswaldo Vieira de Andrade
                   <br />
                   nº 1330, Terramérica - SP

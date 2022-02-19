@@ -14,7 +14,8 @@
 @font-face {
   font-family: "JosefinSans-ExtraLight";
   src: url(../assets/fonts/JosefinSans-ExtraLight.ttf);
-}@font-face {
+}
+@font-face {
   font-family: "JosefinSans-ExtraLightItalic";
   src: url(../assets/fonts/JosefinSans-ExtraLightItalic.ttf);
 }
@@ -55,7 +56,13 @@
   src: url(../assets/fonts/JosefinSans-BoldItalic.ttf);
 }
 
-
+@font-face {
+  font-family: "Montserrat-Light";
+  src: url(../assets/fonts/Montserrat-Light.ttf);
+}@font-face {
+  font-family: "Montserrat-Medium";
+  src: url(../assets/fonts/Montserrat-Medium.ttf);
+}
 
 html,
 body {
@@ -118,6 +125,13 @@ a {
   font-family: "JosefinSans-BoldItalic" !important;
 }
 
+.family-montlight {
+  font-family: "Montserrat-Light" !important;
+}
+.family-montmedium {
+  font-family: "Montserrat-Medium" !important;
+}
+
 .font-white {
   color: #ffffff !important;
 }
@@ -151,6 +165,9 @@ a {
 }
 .font-medium {
   font-size: 1.2rem;
+}
+.font-regular {
+  font-size: 1.6rem;
 }
 .font-lg {
   font-size: 2rem;
@@ -240,7 +257,7 @@ a {
   align-items: center;
   background-color: #f5f5f2;
   background: url(../assets/background/bg-familia.png) bottom center no-repeat;
-  height: 60vh;
+  height: 85vh;
 }
 
 .entreter {
@@ -266,11 +283,11 @@ a {
 }
 
 .entreter-text {
-  font-size: 2em;
+  font-size: 1.75em;
 }
 
 .descricao-text {
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 .descricao-image {
@@ -338,9 +355,6 @@ a {
   background: url(../assets/file/lar.png) center no-repeat;
 }
 
-.bg-piscina {
-  background: url(../assets/file/piscina.png) center no-repeat;
-}
 
 .bg-plantas {
   display: flex;
@@ -370,17 +384,25 @@ a {
   font-size: 1.4em;
 }
 
+.bg-piscina {
+  background: url(../assets/file/piscina.png) left no-repeat;
+  height: 12rem;
+
+}
+
 .bg-playground {
   background: url(../assets/file/Playground.png) center no-repeat;
+  height: 10rem;
 }
 
 .bg-quadra {
-  background: url(../assets/file/quadra.png) center no-repeat;
+  background: url(../assets/file/quadra.png) left no-repeat;
+  height: 16rem;
+
 }
 
 .bg-quiosque {
-  background: url(../assets/file/Quiosques.png) left center no-repeat;
-  padding-left: 48px;
+  background: url(../assets/file/Quiosques.png)  left no-repeat;
 }
 
 .bg-salao {
@@ -434,11 +456,11 @@ strong {
 }
 
 .mapa-title {
-  font-size: 2.6em;
+  font-size: 2.4em;
 }
 
 .mapa-desc {
-  font-size: 2.2em;
+  font-size: 1.8em;
 }
 
 .mapa-phone {
@@ -446,7 +468,7 @@ strong {
 }
 
 .mapa-address {
-  font-size: 2.4em;
+  font-size: 2em;
   line-height: 120%;
 }
 

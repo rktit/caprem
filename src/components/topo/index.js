@@ -5,7 +5,6 @@ import { Fade } from 'react-reveal'
 
 import morada from '../../assets/logo/logo-morada.png'
 import vida from '../../assets/file/sua-vida.png'
-import botão from '../../assets/static/button.png'
 import whats from '../../assets/icon/whatsapp.png'
 
 export default function Page(props) {
@@ -36,10 +35,10 @@ export default function Page(props) {
 
   return (
     <ScrollableAnchor id={'home'}>
-      <div className="topo">
+      <div className="topo pb-6">
         <Fade>
           <div className="flex flex-col ml-24">
-            <img src={morada} className=" ml-12" width="500" />
+            <img src={morada} className="ml-12" width="500" />
 
             <div className="">
               <div className="font-red family-regular ml-14 title-topo">
@@ -48,7 +47,7 @@ export default function Page(props) {
               </div>
             </div>
 
-            <div className="w-4/12 pl-14 mt-24">
+            <div className="w-4/12 pl-14 mt-20">
               <form action="form-page" method="post">
                 <label for="name" className="font-red family-bold ml-2 w-full">
                   Nome:*
@@ -58,7 +57,7 @@ export default function Page(props) {
                   type="text"
                   id="name"
                   name="user_name"
-                  className="formulario font-blue family-bold px-4 py-2 mb-4 w-full"
+                  className="formulario font-blue family-bold px-4 py-2 mb-3 w-full"
                   placeholder="Digite seu nome"
                 />
 
@@ -69,7 +68,7 @@ export default function Page(props) {
                 <input
                   id="tel"
                   name="user_message"
-                  className="formulario font-blue family-bold px-4 py-2 mb-4 w-full"
+                  className="formulario font-blue family-bold px-4 py-2 mb-3 w-full"
                   placeholder="(xx)xxxxx-xxxx"
                 />
                 <br />
@@ -81,7 +80,7 @@ export default function Page(props) {
                   type="email"
                   id="mail"
                   name="user_email"
-                  className="formulario font-blue family-bold px-4 py-2 mb-4 w-full"
+                  className="formulario font-blue family-bold px-4 py-2 mb-3 w-full"
                   placeholder="Digite seu email"
                 />
 
@@ -93,13 +92,13 @@ export default function Page(props) {
           </div>
         </Fade>
 
-        <div className="fixed right-16 bottom-16 whats-message">
+        <div className="fixed right-16 bottom-10 whats-message">
           <a
             target="_blank"
             href="https://api.whatsapp.com/send?phone=5519999521441"
           >
             <img
-              className="flex items-end mr-1 w-24"
+              className="flex items-end mr-52 w-14"
               src={whats}
               alt="Whatsapp"
             />

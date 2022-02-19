@@ -49,10 +49,10 @@ export default function Page(props) {
 
           <div className="flex">
             <div className="flex flex-col w-2/5 px-2">
-              <img src={foto3} className="w-full pt-4" />
-              <img src={foto4} className="w-full pt-4" />
+              <img src={foto3} className="w-full h-full pt-2" />
+              <img src={foto4} className="w-full h-full pt-2" />
             </div>
-            <div className="w-3/5 pt-2 px-2 pt-4">
+            <div className="w-3/5 pt-2 px-2 pt-2">
               <img src={foto5} className="w-full" />
             </div>
           </div>

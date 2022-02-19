@@ -2,12 +2,9 @@ import React, { useEffect, useRef, useState } from 'react'
 import ScrollableAnchor from 'react-scrollable-anchor'
 
 import { Fade } from 'react-reveal'
-import Contrate from '../contrate'
 
 import infos from '../../assets/file/Infos.png'
-import botão from '../../assets/static/button.png'
 
-import CardIcone from '../cardIcone'
 
 export default function Page(props) {
   const [isMobile, setMobile] = useState(false)

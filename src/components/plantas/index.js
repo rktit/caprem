@@ -19,8 +19,8 @@ export default function Page(props) {
   }, [window.innerWidth])
   return (
     <ScrollableAnchor>
-      <div className="plantas pt-24 pb-16">
-        <div className="bg-plantas uppercase font-red family-bold mt-16">
+      <div className="plantas pt-12 pb-16">
+        <div className="bg-plantas uppercase font-red family-bold mt-32">
           Plantas
         </div>
 

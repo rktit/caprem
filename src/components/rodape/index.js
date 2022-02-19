@@ -32,30 +32,34 @@ export default function Page(props) {
             </div>
           </div>
 
-          <div className="flex flex-row items-center justify-center">
-            <a className="w-10"
-              href="https://www.facebook.com/capremconstrutora/"
-              target="_blank"
-              rel="noreferrer">
-              <img src={facebook} alt="facebook" />
-            </a>
-            <a className="w-12"
-              href="https://www.instagram.com/capremconstrutora/"
-              target="_blank"
-              rel="noreferrer">
-              <img src={instagram} alt="instagram" />
-            </a>
-            <div className="font-normal family-medium">@capremconstrutora</div>
+          <div className="items-center justify-center pt-16">
+            <div className="flex flex-row ">
+              <a className="w-10"
+                href="https://www.facebook.com/capremconstrutora/"
+                target="_blank"
+                rel="noreferrer">
+                <img src={facebook} alt="facebook" />
+              </a>
+              <a className="w-12"
+                href="https://www.instagram.com/capremconstrutora/"
+                target="_blank"
+                rel="noreferrer">
+                <img src={instagram} alt="instagram" />
+              </a>
 
-            <div className="font-medium family-medium tracking-widest self-end mb-14">
+            <div className="font-normal family-montmedium">@capremconstrutora</div>
+            </div>
+
+            <div className="font-regular family-medium tracking-widest self-end mb-14">
               <a href="https://www.caprem.com.br/"
                 target="_blank"
-                rel="noreferrer">www.caprem.com.br</a>
-              
+                rel="noreferrer">www.caprem.com.br
+              </a>
             </div>
           </div>
+
         </div>
-        <div className="family-medium font-normal mt-16 pb-6 text-center">
+        <div className="family-light font-normal mt-16 pb-6 text-center">
           Caprem Construtora©2022. Todos os direitos reservados
         </div>
       </div>
