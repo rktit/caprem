@@ -16,11 +16,11 @@ export default function Page(props) {
     }
   }, [window.innerWidth])
   return (
-    <ScrollableAnchor id={''}>
+    <ScrollableAnchor id={'família'}>
       <div className="flex familia w-full">
         <div className="w-1/2"></div>
         <Fade>
-          <div className="flex flex-col w-1/2">
+          <div className="flex flex-col w-full md:w-1/2">
             <div className="flex">
               <div className="bg-familia">
                 <strong className="font-lg font-red family-regular text-left">
@@ -43,7 +43,7 @@ export default function Page(props) {
               <img src={infos} width="480" />
             </div>
 
-            <button className="w-1/2 flex justify-center py-3 px-4 mt-6 border border-transparent text-sm font-medium rounded-lg text-white button-cadastro">
+            <button className="w-full md:w-1/2 flex justify-center py-3 mt-6 border border-transparent text-sm font-medium rounded-lg text-white button-cadastro">
               Cadastre-se agora
             </button>
           </div>

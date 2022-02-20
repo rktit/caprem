@@ -35,19 +35,19 @@ export default function Page(props) {
 
   return (
     <ScrollableAnchor id={'home'}>
-      <div className="topo pb-6">
+      <div className="topo pb-0 md:pb-12">
         <Fade>
-          <div className="flex flex-col ml-24">
-            <img src={morada} className="ml-12" width="500" />
+          <div className="flex flex-col ml-2 md:ml-24">
+            <img src={morada} className="ml-0 md:ml-12 mt-0 md:mt-4" width="500 sm:300" />
 
             <div className="">
-              <div className="font-red family-regular ml-14 title-topo">
+              <div className="font-red family-regular ml-4 md:ml-14 title-topo">
                 O Porto Seguro da
-                <img src={vida} className="w-84 pb-12 topo-img-vida" />
+                <img src={vida} className="w-40 md:w-80 pb-12 topo-img-vida" />
               </div>
             </div>
 
-            <div className="w-4/12 pl-14 mt-20">
+            <div className="w-10/12 md:w-5/12 pl-6 md:pl-14 pr-6 md:pr-8 mt-14 md:mt-20">
               <form action="form-page" method="post">
                 <label for="name" className="font-red family-bold ml-2 w-full">
                   Nome:*
@@ -84,7 +84,7 @@ export default function Page(props) {
                   placeholder="Digite seu email"
                 />
 
-                <button className=" w-full flex justify-center py-3 px-4 mt-4 border border-transparent text-sm font-medium rounded-lg text-white button-cadastro">
+                <button className="w-full flex justify-center py-3 px-4 mt-4 border border-transparent text-sm font-medium rounded-lg text-white button-cadastro">
                   Cadastre-se agora
                 </button>
               </form>
@@ -92,13 +92,13 @@ export default function Page(props) {
           </div>
         </Fade>
 
-        <div className="fixed right-16 bottom-10 whats-message">
+        <div className="fixed right-24 bottom-24 md:bottom-4 whats-message">
           <a
             target="_blank"
             href="https://api.whatsapp.com/send?phone=5519999521441"
           >
             <img
-              className="flex items-end mr-52 w-14"
+              className="flex items-start md:items-end mr-2 md:mr-28 w-8 md:w-14"
               src={whats}
               alt="Whatsapp"
             />
