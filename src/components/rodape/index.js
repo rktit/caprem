@@ -20,7 +20,7 @@ export default function Page(props) {
     <ScrollableAnchor id={""}>
       <div className="bg-red w-full">
 
-        <div className="flex flex-wrap justify-center p-6 pb-0">
+        <div className="flex flex-wrap justify-center p-4 pb-0">
 
           <div className="flex justify-center items-center my-2 md:my-8">
             <div className="pr-2 md:pr-24">
@@ -47,10 +47,10 @@ export default function Page(props) {
                 <img src={instagram} alt="instagram" />
               </a>
 
-            <div className="font-small md:font-normal family-montmedium  flex	 items-center">@capremconstrutora</div>
+            <div className="sm:font-small md:font-normal family-montmedium  flex items-center">@capremconstrutora</div>
             </div>
 
-            <div className="font-medium md:font-regular family-medium tracking-widest self-end ml-2 md:ml-0 mb-8 md:mb-14">
+            <div className="font-regular md:font-regular family-medium tracking-widest self-end ml-2 md:ml-0 mb-8 md:mb-14">
               <a href="https://www.caprem.com.br/"
                 target="_blank"
                 rel="noreferrer">www.caprem.com.br
@@ -59,7 +59,7 @@ export default function Page(props) {
           </div>
 
         </div>
-        <div className="family-light font-xs md:font-normal mt-4 md:mt-10 pb-6 text-center">
+        <div className="family-light font-normal mt-4 md:mt-10 pb-6 text-center">
           Caprem Construtora©2022. Todos os direitos reservados
         </div>
       </div>

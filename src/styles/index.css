@@ -416,10 +416,7 @@ a {
   width: 350px;
 }
 
-.btn-black {
-  background: black;
-  width: 350px;
-}
+
 
 .btn-black:hover {
   background: #1a1a1a;
@@ -487,114 +484,6 @@ strong {
   }
   .btn-red {
     width: 100%;
-  }
-  .topo {
-    background: url(../assets/background/bg-topo.jpeg) center 70% black
-      ;
-    height: 900px;
-  }
-
-  .title-topo {
-    font-size: 1.6rem;
-  }
-  .topo-img-vida {
-    position: absolute;
-    margin-top: -40px;
-    margin-left: 110px;
-  }
-
-  .formulario {
-    background: none;
-    border: 1px solid #45506e;
-    border-radius: 8px;
-  }
-  .familia {
-    display: flex;
-    align-items: center;
-    background-color: #f5f5f2;
-    background: url(../assets/background/bg-familia.png) center no-repeat;
-    height: 120vh;
-  }
-
-  .entreter-box {
-    display: inline-block;
-    align-items: center;
-  }
-
-  .entreter-title {
-    display: flex;
-    align-items: center;
-    align-content: center;
-    font-size: 1.5em;
-  }
-  .entreter-text {
-    font-size: 1.5em;
-  }
-  .bg-quiosque {
-    background: url(../assets/file/Quiosques.png)  left no-repeat;
-    background-size: 260px;
-  }
-
-  .bg-piscina {
-    background: url(../assets/file/piscina.png) left no-repeat;
-    height: 12rem;
-    background-size: 260px;
-  }
-  
-  .bg-playground {
-    background: url(../assets/file/Playground.png) center no-repeat;
-    height: 10rem;
-    background-size: 260px;
-  }
-  
-  .bg-quadra {
-    background: url(../assets/file/quadra.png) left no-repeat;
-    height: 16rem;
-    background-size: 260px;
-  }
-    
-  .bg-salao {
-    background: url(../assets/file/salao.png) center no-repeat;
-    background-size: 260px;
-  }
-  .descricao-text {
-    font-size: 1em;
-  }
-  .descricao-image {
-    position: absolute;
-    margin-left: -5rem;;
-  }
-
-  .bg-plantas {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: url(../assets/file/Plantas.png) top no-repeat;
-    height: 100px;
-    font-size: 2em;
-  }
-  .planta-info {
-    font-size: 1.5em;
-  }  
-  .planta-attention {
-    font-size: 0.8em;
-  }
-
-  .mapa-title {
-    font-size: 1.1em;
-  }
-  
-  .mapa-desc {
-    font-size: 1.2em;
-  }
-  
-  .mapa-phone {
-    font-size: 1.5em;
-  }
-  
-  .mapa-address {
-    font-size: 1.2em;
-    line-height: 120%;
   }
 }
 @media (max-width: 575px) {

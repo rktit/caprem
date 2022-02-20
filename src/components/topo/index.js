@@ -47,7 +47,7 @@ export default function Page(props) {
               </div>
             </div>
 
-            <div className="w-10/12 md:w-5/12 pl-6 md:pl-14 pr-6 md:pr-8 mt-14 md:mt-20">
+            <div className="w-10/12 md:w-5/12 pl-6 md:pl-14 pr-6 md:pr-20 mt-14 md:mt-20">
               <form action="form-page" method="post">
                 <label for="name" className="font-red family-bold ml-2 w-full">
                   Nome:*
@@ -98,7 +98,7 @@ export default function Page(props) {
             href="https://api.whatsapp.com/send?phone=5519999521441"
           >
             <img
-              className="flex items-start md:items-end mr-2 md:mr-28 w-8 md:w-14"
+              className="flex items-start md:items-end mr-2 md:mr-28 w-8 md:w-12"
               src={whats}
               alt="Whatsapp"
             />
