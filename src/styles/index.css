@@ -157,10 +157,10 @@ a {
 }
 
 .font-xs {
-  font-size: 0.6rem;
+  font-size: 0.75rem;
 }
 .font-small {
-  font-size: 0.8rem;
+  font-size: 0.875rem;
 }
 .font-normal {
   font-size: 1rem;
@@ -178,22 +178,6 @@ a {
   font-size: 3rem;
 }
 
-.mascote {
-  animation: bounce 3s infinite;
-}
-
-
-@keyframes bounce {
-  0%,
-  100% {
-    transform: translateY(-25%);
-    animationtimingfunction: cubic-bezier(0.8, 0, 1, 1);
-  }
-  50% {
-    transform: translateY(0);
-    animationtimingfunction: cubic-bezier(0, 0, 0.2, 1);
-  }
-}
 
 .back-top {
   cursor: pointer;
@@ -219,14 +203,7 @@ a {
   animation-duration: 2s;
 }
 
-@keyframes box-show {
-  from {
-    background: rgba(255, 255, 255, 1);
-  }
-  to {
-    background: rgba(255, 255, 255, 0);
-  }
-}
+
 
 .title-topo {
   font-size: 3rem;
@@ -348,7 +325,7 @@ a {
 }
 
 .bg-red {
-  background: #7b183f;
+  background-color: #7b183f;
 }
 
 
@@ -496,11 +473,7 @@ strong {
   .btn-red {
     width: 100%;
   }
-  .topo {
-    background: url(../assets/background/bg-topo.jpeg) center 50% black
-      ;
-    height: 750px;
-  }
+ 
 }
 
 /* SCROLLBAR */

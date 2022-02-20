@@ -98,7 +98,7 @@ export default function Page(props) {
             href="https://api.whatsapp.com/send?phone=5519999521441"
           >
             <img
-              className="flex items-start md:items-end mr-2 md:mr-28 w-8 md:w-12"
+              className="flex items-start md:items-end mr-2 md:mr-28 w-8 md:w-10"
               src={whats}
               alt="Whatsapp"
             />
