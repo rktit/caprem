@@ -56,7 +56,7 @@ export default function Page(props) {
           </div>
         </div>
 
-        <div className="w-full flex justify-center mt-12 pl-14 md:pl-4">
+        <div className="w-full flex justify-center mt-12 pl-14 md:pl-4 pr-14 md:pr-4">
           <button className="w-full md:w-1/3 flex justify-center py-3 px-4 mt-4 border border-transparent text-sm font-medium rounded-lg text-white button-cadastro">
             Cadastre-se agora
           </button>

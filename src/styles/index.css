@@ -462,6 +462,14 @@ strong {
   .btn-red {
     width: 100%;
   }
+  .title-topo {
+    font-size: 2rem;
+  }
+  .topo-img-vida {
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 160px;
+  }
 }
 @media (max-width: 575px) {
   .font-big {

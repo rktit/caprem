@@ -29,7 +29,7 @@ export default function Page(props) {
     <ScrollableAnchor id={"entreternimento"}>
       <div className="flex entreter">
         <Fade>
-          <div className="flex flex-wrap md:flex-col mx-12 md:mx-24">
+          <div className="flex flex-wrap md:flex-col mx-6 md:mx-24">
 
             <div className="entreter-box m-4 mt-20">
               <div className="flex w-10/12 md:w-1/2">
@@ -116,7 +116,7 @@ export default function Page(props) {
               </div>
             </div>
             
-            <div className="w-full flex justify-center mt-12 mb-24">
+            <div className="w-full flex justify-center mt-12 mb-24 pr-48 md:pr-4">
               <button className="w-full md:w-1/3 flex justify-center py-3 px-4 mt-4 border border-transparent text-sm font-medium rounded-lg text-white button-cadastro">
                 Cadastre-se agora
               </button>

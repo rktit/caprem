@@ -10,7 +10,7 @@ export default function Page(props) {
     <ScrollableAnchor id={'mapa'}>
       <div className="flex">
         <Fade duration={2000}>
-          <div className="w-full md:w-1/2 flex flex-col pl-6 md:pl-24 py-4 md:py-12">
+          <div className="w-full flex flex-col pl-6 md:pl-24 py-4 md:py-12">
             <div className="font-medium font-red family-bold-italic mapa-title">
               O PONTO ESTRATÉGICO DA SUA <br />
               NOVA VIDA JÁ TEM ENDEREÇO.
@@ -43,7 +43,7 @@ export default function Page(props) {
                   nº 1330, Terramérica - SP
                 </div>
               </div>
-              <div className="w-full flex justify-center mt-12 pl-4">
+              <div className="w-full flex justify-center mt-12 pl-4 pr-10 md:pr-4">
               <button className="w-screen md:w-2/3 flex justify-center py-3 px-4 mt-4 md:mt-8 border border-transparent text-sm font-medium rounded-lg text-white button-cadastro">
                 Cadastre-se agora
               </button>
