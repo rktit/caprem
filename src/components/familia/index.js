@@ -18,12 +18,12 @@ export default function Page(props) {
   return (
     <ScrollableAnchor id={'família'}>
       <div className="flex familia w-full">
-        <div className="w-1/2"></div>
+        <div className="w-auto md:w-1/2"></div>
         <Fade>
-          <div className="flex flex-col w-full md:w-1/2">
-            <div className="flex">
+          <div className="flex flex-col w-full md:w-1/2 p-4 md:p-0">
+            <div className="flex mt-12 md:mt-24">
               <div className="bg-familia">
-                <strong className="font-lg font-red family-regular text-left">
+                <strong className="font-regular md:font-lg font-red family-medium md:family-regular text-left">
                   Lar e Lazer para toda a família!
                 </strong>
               </div>
@@ -43,7 +43,8 @@ export default function Page(props) {
               <img src={infos} width="480" />
             </div>
 
-            <button className="w-full md:w-1/2 flex justify-center py-3 mt-6 border border-transparent text-sm font-medium rounded-lg text-white button-cadastro">
+
+            <button className="w-1/2 md:w-2/4 lg:w-3/5 flex justify-center py-3 mt-6 border border-transparent text-sm font-medium rounded-lg text-white button-cadastro">
               Cadastre-se agora
             </button>
           </div>

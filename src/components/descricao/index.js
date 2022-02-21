@@ -10,24 +10,24 @@ export default function Page() {
     <ScrollableAnchor id={'descrição'}>
       <div className="flex">
         <Fade left duration={2000}>
-          <div className="w-full md:w-1/2 mt-32 md:mt-24 flex">
-            <div className="w-1/4"></div>
+          <div className="flex w-auto md:w-1/2 mt-4 md:mt-24">
+            <div className="w-auto md:w-1/4"></div>
             <div className="w-full md:w-3/4">
               <div>
-                <img src={descricao} className="w-full" />
+                <img src={descricao} className="w-auto md:w-full" />
               </div>
 
               <div className="items-center">
-                <div className="pl-10 mt-8 descricao-text font-black family-extra-light font-medium">
+                <div className="pl-8 md:pl-6 lg:pl-10 mt-8 descricao-text font-blue family-medium">
                   <div>
-                    O Morada do Porto possui dois tipos de <br />
-                    plantas criadas com o propósito de atender <br />
+                    O Morada do Porto possui dois tipos de
+                    plantas criadas com o propósito de atender
                     a real necessidade da sua família.
                   </div>
                   <br />
 
                   <div>
-                    São plantas de 53m² e 68 m² que trarão o <br />
+                    São plantas de 53m² e 68 m² que trarão o
                     real necessidade de espaço.
                   </div>
                   <br />
@@ -49,8 +49,8 @@ export default function Page() {
           </div>
         </Fade>
 
-        <div className="w-full md:w-1/2 mt-8 md:mt-0">
-          <img src={lar} className="pr-40 md:pr-0 descricao-image" width="850" />
+        <div className="w-auto justify-items-center mt-8 md:mt-14">
+          <img src={lar} className="descricao-image" width="450 md:700" />
         </div>
       </div>
     </ScrollableAnchor>

@@ -23,22 +23,22 @@ export default function Page(props) {
           Plantas
         </div>
 
-        <div className="flex px-14 md:px-0 w-4/5 md:w-full justify-center mt-8">
-          <img src={botao53} className="ml-28 md:mr-6" />
-          <img src={botao68} className="mr-8 md:ml-6" />
+        <div className="flex px-16 md:px-0 w-auto md:w-5/7 lg:full justify-center mt-8">
+          <img src={botao53} className="sm:ml-4 md:ml-12 lg:ml-10 sm:mr-2 md:mr-6 lg:mr-8" />
+          <img src={botao68} className="mr-2 md:mr-8 ml-2 md:ml-6" />
         </div>
         <div className="w-full flex justify-center">
           <div className="box-planta w-4/4">
-            <div className="medium-italic font-red text-lg text-right planta-info">
+            <div className="medium-italic font-red text-lg text-right mt-2 md:mt-0 mr-6 md:mr-0 planta-info">
               Planta Apto Tipo II <br />
               Finais 03, 04, 05 e 06
             </div>
 
-            <div className="flex w-full justify-center mt-12">
+            <div className="flex w-full justify-center mt-6 md:mt-12">
               <img src={planta} />
             </div>
 
-            <div className="family-thin font-black text-center planta-attention mt-24">
+            <div className="family-thin font-black text-center planta-attention mt-10 md:mt-24">
               <strong>ATENÇÃO:</strong> As medidas estão sujeitas a pequenas
               variações. Não produza móveis planejados antes da vistoria final.
             </div>

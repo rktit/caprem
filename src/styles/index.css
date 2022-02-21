@@ -132,6 +132,7 @@ a {
   font-family: "Montserrat-Medium" !important;
 }
 
+
 .font-white {
   color: #ffffff !important;
 }
@@ -147,14 +148,13 @@ a {
 .font-cream {
   color: #d7e7bd !important;
 }
-
-.font {
+.font-gray2 {
   color: #4d4d4e !important;
-
 }
 .font-gray {
   color: #aeaeb3 !important;
 }
+
 
 .font-xs {
   font-size: 0.75rem;
@@ -204,143 +204,63 @@ a {
 }
 
 
-
-.title-topo {
-  font-size: 3rem;
-}
-
-.topo-img-vida {
-  position: absolute;
-  margin-top: -72px;
-  margin-left: 180px;
-}
-
-.button-cadastro {
-  background-color: #7b183f;
-  text-transform: uppercase;
-  font-weight: 900;
-  font-size: 1em;
-}
-
-.bars-tecnology {
-  animation-name: slidein;
-}
-
 .topo {
   background: url(../assets/background/bg-topo.jpeg) center no-repeat;
   background-size: cover;
 }
-
 .familia {
-  display: flex;
-  align-items: center;
   background-color: #f5f5f2;
   background: url(../assets/background/bg-familia.png) bottom center no-repeat;
   height: 100vh;
 }
-
 .entreter {
   background: url(../assets/background/bg-entreter.png) top center no-repeat;
   background-size: cover;
 }
-
-.entreter-box {
-  display: flex;
-  align-items: center;
-}
-
-.entreter-title {
-  display: flex;
-  align-items: center;
-  align-content: center;
-  font-size: 2.5em;
-}
-
-.entreter-content {
-  display: flex;
-  flex-direction: column;
-}
-
-.entreter-text {
-  font-size: 1.75em;
-}
-
-.descricao-text {
-  font-size: 1.5em;
-}
-
-.descricao-image {
-  position: absolute;
-  margin-top: -100px;
-  margin-left: -3rem;;
-}
-
 .plantas {
   background: url(../assets/background/bg-planta.jpeg) top center no-repeat;
 }
-
 .mapa {
   background: url(../assets/background/bg-mapa.jpeg) center no-repeat;
   background-size: cover;
 }
 
 
-.logotipo {
-  margin-top: -100px;
-  animation: bounce 30s infinite;
+
+.title-topo {
+  font-size: 3rem;
+}
+.topo-img-vida {
+  position: absolute;
+  margin-top: -72px;
+  margin-left: 180px;
 }
 
-.imgMac {
-  width: 100%;
-  height: auto;
-}
-
-.imgMac {
-  width: 100%;
-  height: auto;
-}
-
-.title {
-  font-family: SF-Pro-Display-Light;
-  border-left: 6px solid #7b183f;
-  padding-left: 24px;
-}
-
-.title-blue {
-  font-family: SF-Pro-Display-Light;
-  border-left: 6px solid #45506e;
-  padding-left: 24px;
-}
-
-
-.title-red strong {
-  font-family: SF-Pro-Display-Bold;
-  color: #7b183f;
-  font-size: 1.8rem;
-  margin-right: 1rem;
-}
-
-.line-height {
-  line-height: 2rem;
-}
-
-.bg-red {
-  background-color: #7b183f;
-}
-
-
-.bg-familia {
-  background: url(../assets/file/lar.png) center no-repeat;
-}
-
-
-.bg-plantas {
+.entreter-box {
   display: flex;
-  justify-content: center;
   align-items: center;
-  background: url(../assets/file/Plantas.png) top no-repeat;
-  height: 124px;
-  font-size: 3em;
+}
+.entreter-title {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  font-size: 2.5em;
+}
+.entreter-content {
+  display: flex;
+  flex-direction: column;
+}
+.entreter-text {
+  font-size: 1.7em;
+}
+
+.descricao-text {
+  font-size: 1.5em;
+}
+.descricao-image {
+  position: absolute;
+  margin-top: -100px;
+  margin-left: -3rem;
 }
 
 .box-planta {
@@ -349,103 +269,132 @@ a {
   border-radius: 3rem;
   line-height: 150%;
 }
-
 .planta-info {
   font-size: 2em;
 }
-
 .planta-attention strong{
   font-family: "JosefinSans-Bold" !important;
 }
-
 .planta-attention {
   font-size: 1.4em;
-}
-
-.bg-piscina {
-  background: url(../assets/file/piscina.png) left no-repeat;
-  height: 12rem;
-
-}
-
-.bg-playground {
-  background: url(../assets/file/Playground.png) center no-repeat;
-  height: 10rem;
-}
-
-.bg-quadra {
-  background: url(../assets/file/quadra.png) left no-repeat;
-  height: 16rem;
-
-}
-
-.bg-quiosque {
-  background: url(../assets/file/Quiosques.png)  left no-repeat;
-}
-
-.bg-salao {
-  background: url(../assets/file/salao.png) center no-repeat;
-}
-
-
-.btn-gray {
-  background: #7d8392;
-  width: 350px;
-}
-
-
-
-.btn-black:hover {
-  background: #1a1a1a;
-}
-
-.btn-red {
-  background: #7b183f;
-  width: 350px;
-}
-
-.btn-red:hover {
-  background: #7b183f;
-}
-
-.tec_dir {
-  border-top-left-radius: 16px;
-}
-
-.tec_left {
-  border-bottom-right-radius: 16px;
-}
-
-strong {
-  font-family: JosefinSans-Light;
-}
-
-.formulario {
-  background: none;
-  border: 1px solid #45506e;
-  border-radius: 8px;
-}
-
-.whats-message {
-  z-index: 999;
 }
 
 .mapa-title {
   font-size: 2.2em;
 }
-
 .mapa-desc {
   font-size: 1.8em;
 }
-
 .mapa-phone {
   font-size: 2.4em;
 }
-
 .mapa-address {
   font-size: 2em;
   line-height: 120%;
 }
+
+.bg-familia {
+  background: url(../assets/file/lar.png) center no-repeat;
+}
+.bg-plantas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(../assets/file/Plantas.png) top no-repeat;
+  height: 124px;
+  font-size: 3em;
+}
+.bg-piscina {
+  background: url(../assets/file/piscina.png) left no-repeat;
+  height: 12rem;
+}
+.bg-playground {
+  background: url(../assets/file/Playground.png) center no-repeat;
+  height: 10rem;
+}
+.bg-quadra {
+  background: url(../assets/file/quadra.png) left no-repeat;
+  height: 16rem;
+}
+.bg-quiosque {
+  background: url(../assets/file/Quiosques.png)  left no-repeat;
+}
+.bg-salao {
+  background: url(../assets/file/salao.png) center no-repeat;
+}
+
+
+.logotipo {
+  margin-top: -100px;
+  animation: bounce 30s infinite;
+}
+.imgMac {
+  width: 100%;
+  height: auto;
+}
+.title {
+  font-family: SF-Pro-Display-Light;
+  border-left: 6px solid #7b183f;
+  padding-left: 24px;
+}
+.title-blue {
+  font-family: SF-Pro-Display-Light;
+  border-left: 6px solid #45506e;
+  padding-left: 24px;
+}
+.title-red strong {
+  font-family: SF-Pro-Display-Bold;
+  color: #7b183f;
+  font-size: 1.8rem;
+  margin-right: 1rem;
+}
+.line-height {
+  line-height: 2rem;
+}
+.bg-red {
+  background-color: #7b183f;
+}
+.button-cadastro {
+  background-color: #7b183f;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 1em;
+}
+.bars-tecnology {
+  animation-name: slidein;
+}
+.btn-gray {
+  background: #7d8392;
+  width: 350px;
+}
+.btn-black:hover {
+  background: #1a1a1a;
+}
+.btn-red {
+  background: #7b183f;
+  width: 350px;
+}
+.btn-red:hover {
+  background: #7b183f;
+}
+.tec_dir {
+  border-top-left-radius: 16px;
+}
+.tec_left {
+  border-bottom-right-radius: 16px;
+}
+strong {
+  font-family: JosefinSans-Light;
+}
+.formulario {
+  background: none;
+  border: 1px solid #45506e;
+  border-radius: 8px;
+}
+.whats-message {
+  z-index: 999;
+}
+
 
 
 @media (max-width: 1400px) {
@@ -462,69 +411,94 @@ strong {
   .btn-red {
     width: 100%;
   }
+
+  .topo {
+    background: url(../assets/background/bg-topo.jpeg) no-repeat;
+    background-size: cover;
+  }
   .title-topo {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
   .topo-img-vida {
     position: absolute;
     margin-top: -40px;
-    margin-left: 160px;
+    margin-left: 130px;
   }
-  .entreter {
-    background: url(../assets/background/bg-entreter.png) center no-repeat;
-    background-size: cover;
+
+  .familia {
+    background-color: #f5f5f2;
+    background: url(../assets/background/bg-familia.png) bottom center no-repeat;
+    height: 105vh;
   }
-  .entreter-box {
-    background-size: auto;
-    display: inline-block	;
-    justify-content: center;  
+  .button-cadastro {
+    background-color: #7b183f;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.8em;
   }
   
+  .mapa-title {
+    font-size: 1.5em;
+  }
+  .mapa-desc {
+    font-size: 1.5em;
+  }
+  .mapa-phone {
+    font-size: 2.2em;
+  }
+  .mapa-address {
+    font-size: 1.75em;
+    line-height: 120%;
+  }
+
+  .plantas {
+    background: url(../assets/background/bg-planta.jpeg) top center no-repeat;
+  }
+  .box-planta {
+    padding: 0.5em;
+    background-color: #fff;
+    border-radius: 3rem;
+    line-height: 150%;
+  }
+  .planta-info {
+    font-size: 1.5em;
+  }
+  .planta-attention {
+    font-size: 1em;
+  }
+
+  .entreter-box {
+    display: block;
+    align-items: center;
+  }
   .entreter-title {
     display: flex;
     align-items: center;
     align-content: center;
-    font-size: 1.875em;
+    font-size: 1.5em;
   }
-  
   .entreter-content {
     display: flex;
     flex-direction: column;
   }
-  
   .entreter-text {
     font-size: 1.25em;
   }
   
-.mapa-title {
-  font-size: 1.25em;
-}
+    
+  .descricao-text {
+    font-size: 1.25em;
+  }
+  .descricao-image {
+    visibility: hidden;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+  }
 
-.mapa-desc {
-  font-size: 1.3em;
-}
+  
 
-.mapa-phone {
-  font-size: 1.75em;
-}
-
-.mapa-address {
-  font-size: 1.25em;
-  line-height: 120%;
-}
-.planta-attention {
-  font-size: 1em;
-}
-.box-planta {
-  padding: 0.75em;
-  background-color: #fff;
-  border-radius: 3rem;
-  line-height: 140%;
-}
-
-.planta-info {
-  font-size: 1.5em;
-}
 }
 @media (max-width: 575px) {
   .font-big {
@@ -536,7 +510,39 @@ strong {
   .btn-red {
     width: 100%;
   }
- 
+  .entreter-box {
+    display: block;
+    align-items: center;
+  }
+  .entreter-title {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    font-size: 1.5em;
+  }
+  .entreter-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .entreter-text {
+    font-size: 1.25em;
+  }
+  .bg-piscina {
+    background-image: none;
+  }
+  .bg-playground {
+    background-image: none;
+  }
+  .bg-quadra {
+    background-image: none;
+  }
+  .bg-quiosque {
+    background-image: none;
+
+  }
+  .bg-salao {
+    background-image: none;
+  }
 }
 
 /* SCROLLBAR */

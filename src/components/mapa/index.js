@@ -10,7 +10,7 @@ export default function Page(props) {
     <ScrollableAnchor id={'mapa'}>
       <div className="flex">
         <Fade duration={2000}>
-          <div className="w-full flex flex-col pl-6 md:pl-24 py-4 md:py-12">
+          <div className="w-full flex flex-col px-6 md:pl-24 py-4 md:py-12">
             <div className="font-medium font-red family-bold-italic mapa-title">
               O PONTO ESTRATÉGICO DA SUA <br />
               NOVA VIDA JÁ TEM ENDEREÇO.
@@ -18,7 +18,7 @@ export default function Page(props) {
 
             <div className="family-light-italic font-blue font-normal mapa-desc">
             <br />
-              Supermercados, parques, farmácias e muita
+              Supermercados, parques, farmácias e muita <br/>
               qualidade de vida, pertinho de você...
             </div>
 
@@ -51,7 +51,7 @@ export default function Page(props) {
 
           </div>
 
-          <div class="flex w-full md:w-1/2 justify-center">
+          <div class="flex w-screen py-0 md:py-4 justify-center">
             <img src={mapa} />
           </div>
         </Fade>

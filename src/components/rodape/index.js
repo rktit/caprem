@@ -20,8 +20,8 @@ export default function Page(props) {
 
         <div className="flex flex-wrap justify-center p-4 pb-0">
 
-          <div className="flex items-center my-2 md:my-8">
-            <div className="pr-2 md:pr-24">
+          <div className="flex items-center mx-6 md:mx-0 my-2 md:my-8">
+            <div className="pr-4 md:pr-24">
               <img src={barbo} alt="Barbo Epreendimentos" />
             </div>
 
@@ -45,10 +45,10 @@ export default function Page(props) {
                 <img src={instagram} alt="instagram" />
               </a>
 
-            <div className="flex font-small md:font-medium family-montmedium items-center">@capremconstrutora</div>
+            <div className="flex font-small md:font-medium family-montmedium items-center pl-2 md:pl-0">@capremconstrutora</div>
             </div>
 
-            <div className="font-regular md:font-medium sm:font-normal family-medium tracking-widest self-end ml-2 md:ml-0 mb-8 md:mb-14">
+            <div className="font-medium md:font-regular family-medium tracking-widest ml-2 md:ml-0 mb-8 md:mb-14">
               <a href="https://www.caprem.com.br/"
                 target="_blank"
                 rel="noreferrer">www.caprem.com.br
@@ -57,7 +57,7 @@ export default function Page(props) {
           </div>
 
         </div>
-        <div className="family-light font-xs md:font-medium mt-4 md:mt-10 pb-6 text-center">
+        <div className="family-light sm:font-xs md:font-medium lg:regular mt-4 md:mt-10 pb-6 text-center">
           Caprem Construtora©2022. Todos os direitos reservados
         </div>
       </div>
