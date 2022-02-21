@@ -19,7 +19,6 @@ export default function Page(props) {
             <div className="family-light-italic font-blue font-normal mapa-desc">
             <br />
               Supermercados, parques, farmácias e muita
-              <br />
               qualidade de vida, pertinho de você...
             </div>
 

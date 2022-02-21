@@ -39,7 +39,7 @@ export default function Page(props) {
   return (
     <ScrollableAnchor id={'fotos'}>
       <div className="bg-white w-full mt-32">
-        <div className="flex-col px-12 md:px-24">
+        <div className="flex-col px-2 md:px-24">
           <div className="flex">
             <img src={foto1} className="w-3/5 pt-2 px-2" />
             <img src={foto2} className="w-2/5 pt-2 px-2" />

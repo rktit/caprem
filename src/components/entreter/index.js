@@ -33,16 +33,15 @@ export default function Page(props) {
 
             <div className="entreter-box m-4 mt-20">
               <div className="flex w-10/12 md:w-1/2">
-                <img src={quiosque} className="flex w-full pt-4 pr-12" />
+                <img src={quiosque} className="flex w-3/4 md:w-full pt-4 pr-6 md:pr-12" />
               </div>
               <div className="w-4/10 md:w-8/12 entreter-content">
                 <div className="flex entreter-title bg-quiosque uppercase font-red font-medium family-bold h-48 pl-20">
                   Quiosques <img src={logo1} className="ml-12 mb-8" />
                 </div>
-                <div className="entreter-text font-bold font-blue text-justify md:text-left w-10/12">
+                <div className="entreter-text font-bold font-blue text-left md:text-left w-5/6 md:w-10/12">
                   Os quiosques do Morada do Porto, foram pensados<br/> 
-                  para que você,
-                  sua família e amigos possam criar<br/>
+                  para que você, sua família e amigos possam criar<br/>
                    momentos inesquecíveis.
                 </div>
               </div>
@@ -53,7 +52,7 @@ export default function Page(props) {
                 <div className="flex entreter-title bg-salao uppercase font-red font-medium family-bold h-48">
                   <img src={logo2} className="p-2 md:p-12 pr-20 mb-8" /> Salão de festas
                 </div>
-                <div className="entreter-text font-bold font-blue text-justify md:text-right w-10/12">
+                <div className="entreter-text font-bold font-blue text-left md:text-right w-4/6 md:w-10/12">
                   As suas comemorações e reuniões familiares<br/>
                   contam com um espaço especial. Os salão de festa<br/> 
                   do Morada do Porto tem toda estrutura e conforto<br/> 
@@ -62,20 +61,20 @@ export default function Page(props) {
                 </div>
               </div>
               <div className="flex w-10/12 md:w-1/2">
-                <img src={salão} className="flex w-full pt-4" />
+                <img src={salão} className="flex w-3/4 md:w-full pt-4" />
               </div>
             </div>
 
             <div className="entreter-box m-4">
               <div className="flex w-1/2 pt-20">
-                <img src={piscina} className="flex w-full pt-4 pr-20" />
+                <img src={piscina} className="flex w-3/4 md:w-full pt-4 pr-20" />
               </div>
               <div className="w/4/10 md:w-8/12 entreter-content">
                 <div className="flex entreter-title bg-piscina uppercase font-red font-medium family-bold h-48 pl-20">
                   Piscina Infantil<br /> e Adulto{" "}
                   <img src={logo3} className="ml-24 mb-8 mt-8" />
                 </div>
-                <div className="entreter-text font-bold font-blue text-justify md:text-left w-10/12">
+                <div className="entreter-text font-bold font-blue text-left md:text-left w-4/6 md:w-10/12">
                   As piscinas do Morada, foram pensadas e projetadas<br/> 
                   para atender todos da sua família. São 2 piscinas,<br/> 
                   uma infantil e a outra para os adultos.
@@ -88,27 +87,27 @@ export default function Page(props) {
                 <div className="flex entreter-title bg-playground uppercase font-red font-medium family-bold h-48">
                   <img src={logo4} className="p-20 pr-32 mb-8" /> Playground
                 </div>
-                <div className="entreter-text font-bold font-blue text-justify md:text-right w-10/12">
+                <div className="entreter-text font-bold font-blue text-left md:text-right w-4/6 md:w-10/12">
                   O ambiente perfeito para que os pequenos<br/>
                   exploradores, possam brincar e crescer com a<br/> 
                   melhor qualidade de vida.
                 </div>
               </div>
               <div className="flex w-10/12 md:w-1/2">
-                <img src={playground} className="flex w-full pt-4" />
+                <img src={playground} className="flex w-3/4 md:w-full pt-4" />
               </div>
             </div>
 
             <div className="entreter-box m-4">
               <div className="flex w-10/12 md:w-1/2">
-                <img src={quadra} className="flex w-full pt-4" />
+                <img src={quadra} className="flex w-3/4 md:w-full pt-4" />
               </div>
               <div className="w/4/10 md:w-8/12 entreter-content">
                 <div className="flex entreter-title bg-quadra uppercase font-red font-medium family-bold h-48 pl-20">
                   Quadra <br />Poliesportiva{" "}
                   <img src={logo5} className="ml-16 mb-8 mt-8" /> 
                 </div>
-                <div className="entreter-text font-bold font-blue text-justify md:text-left w-10/12">
+                <div className="entreter-text font-bold font-blue text-left md:text-left w-4/6 md:w-10/12">
                   Para os apaixonados por esporte, oferecemos na área<br/> 
                   de lazer, duas quadras poliesportivas. Comodidade e<br/>
                   praticidade para cuidar da saúde.
