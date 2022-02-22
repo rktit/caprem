@@ -28,17 +28,17 @@ export default function Page(props) {
     <ScrollableAnchor id={'entreternimento'}>
       <div className="flex entreter">
         <Fade>
-          <div className="flex flex-wrap mx-6 md:mx-24 justify-center">
+          <div className="flex flex-wrap mx-4 md:mx-24 justify-center">
             <div className="entreter-box m-0 md:m-4">
-              <div className="flex w-10/12 md:w-1/2">
+              <div className="flex w-2/12 md:w-1/2">
                 <img
                   src={quiosque}
                   className="flex w-3/4 md:w-full pt-4 pr-2 md:pr-12 invisible md:visible"
                 />
               </div>
               <div className="w-4/10 md:w-8/12 entreter-content">
-                <div className="flex entreter-title bg-quiosque uppercase font-red font-medium family-bold h-48 pl-28 md:pl-20 ">
-                  Quiosques <img src={logo1} className="ml-8 md:ml-12 mb-8" />
+                <div className="flex entreter-title bg-quiosque uppercase font-red font-medium family-bold h-30 md:h-48 pl-2 md:pl-24 ">
+                  Quiosques <img src={logo1} className="sm:ml-4 md:ml-10 lg:ml-16 mb-8" />
                 </div>
                 <div className="entreter-text font-bold font-blue text-left w-5/6 md:w-10/12">
                   Os quiosques do Morada do Porto, foram pensados
@@ -51,12 +51,12 @@ export default function Page(props) {
             </div>
 
             <div className="entreter-box m-0 md:m-4">
-              <div className="w-4/10 md:w-8/12 entreter-content">
-                <div className="flex entreter-title bg-salao uppercase font-red font-medium family-bold h-48">
-                  <img src={logo2} className="p-0 md:p-20 pr-8 md:pr-32 mb-8" />
+              <div className="w-2/10 md:w-8/12 entreter-content pt-14 md:pt-0">
+                <div className="flex entreter-title bg-salao uppercase font-red font-medium family-bold h-30 md:h-48">
+                  <img src={logo2} className="p-0 md:p-2 pr-4 md: 4 lg:pr-32 mb-8" />
                   Salão de festas
                 </div>
-                <div className="entreter-text font-bold font-blue text-left md:text-right w-4/6 md:w-10/12">
+                <div className="entreter-text font-bold font-blue text-left md:text-right w-5/6 md:w-10/12">
                   As suas comemorações e reuniões familiares
                   <br />
                   contam com um espaço especial. Os salão de festa
@@ -68,7 +68,7 @@ export default function Page(props) {
                   momentos.
                 </div>
               </div>
-              <div className="flex w-10/12 md:w-1/2">
+              <div className="flex w-2/12 md:w-1/2">
                 <img
                   src={salão}
                   className="flex w-3/4 md:w-full pt-4 invisible md:visible"
@@ -77,19 +77,19 @@ export default function Page(props) {
             </div>
 
             <div className="entreter-box m-0 md:m-4">
-              <div className="flex w-10/12 md:w-1/2 pt-0 md:pt-20">
+            <div className="flex w-1/12 md:w-1/2">
                 <img
                   src={piscina}
-                  className="flex w-3/4 md:w-full pt-4 pr-20 invisible md:visible"
-                />
+                  className="flex w-3/4 md:w-full pt-4 pr-2 md:pr-12 invisible md:visible"
+                  />
               </div>
               <div className="w-4/10 md:w-8/12 entreter-content">
-                <div className="flex entreter-title bg-piscina uppercase font-red font-medium family-bold h-48 pl-28 md:pl-20 ">
+                <div className="flex entreter-title bg-piscina uppercase font-red font-medium family-bold h-48 pl-2 md:pl-20 ">
                   Piscina Infantil
                   <br /> e Adulto{' '}
-                  <img src={logo3} className="ml-8 md:ml-24 mb-8 mt-8" />
+                  <img src={logo3} className="ml-2 md:ml-28 mb-8" />
                 </div>
-                <div className="entreter-text font-bold font-blue text-left w-4/6 md:w-10/12">
+                <div className="entreter-text font-bold font-blue text-left w-5/6 md:w-10/12">
                   As piscinas do Morada, foram pensadas e projetadas
                   <br />
                   para atender todos da sua família. São 2 piscinas,
@@ -100,19 +100,19 @@ export default function Page(props) {
             </div>
 
             <div className="entreter-box m-0 md:m-4">
-              <div className="w-4/10 md:w-8/12 entreter-content">
+              <div className="w-4/10 md:w-8/12 entreter-content pt-14 md:pt-0">
                 <div className="flex entreter-title bg-playground uppercase font-red font-medium family-bold h-48">
-                  <img src={logo4} className="p-0 md:p-20 pr-8 md:pr-32 mb-8" />
+                  <img src={logo4} className="p-0 md:p-10 pr-2 md:pr-32 mb-8" />
                   Playground
                 </div>
-                <div className="entreter-text font-bold font-blue text-left md:text-right w-4/6 md:w-10/12">
+                <div className="entreter-text font-bold font-blue text-left md:text-right w-5/6 md:w-10/12">
                   O ambiente perfeito para que os pequenos
                   <br />
                   exploradores, possam brincar e crescer com a<br />
                   melhor qualidade de vida.
                 </div>
               </div>
-              <div className="flex w-10/12 md:w-1/2">
+              <div className="flex w-2/12 md:w-1/2">
                 <img
                   src={playground}
                   className="flex w-3/4 md:w-full pt-4 invisible md:visible"
@@ -121,19 +121,19 @@ export default function Page(props) {
             </div>
 
             <div className="entreter-box m-0 md:m-4">
-              <div className="flex w-2/12 md:w-1/2">
+              <div className="flex w-1/12 md:w-1/2">
                 <img
                   src={quadra}
-                  className="flex w-3/4 md:w-full pt-4 invisible md:visible"
+                  className="flex w-3/4 md:w-full pt-4 pr-2 md:pr-12 invisible md:visible"
                 />
               </div>
               <div className="w-4/10 md:w-8/12 entreter-content">
-                <div className="flex entreter-title bg-quadra uppercase font-red font-medium family-bold h-48 pl-20">
+                <div className="flex entreter-title bg-quadra uppercase font-red font-medium family-bold h-48 pl-2 md:pl-20">
                   Quadra <br />
                   Poliesportiva{' '}
-                  <img src={logo5} className="ml-8 md:ml-16 mb-8 mt-8" />
+                  <img src={logo5} className="ml-2 md:ml-12 mb-8" />
                 </div>
-                <div className="entreter-text font-bold font-blue text-left w-4/6 md:w-10/12">
+                <div className="entreter-text font-bold font-blue text-left w-5/6 md:w-10/12">
                   Para os apaixonados por esporte, oferecemos na área
                   <br />
                   de lazer, duas quadras poliesportivas. Comodidade e<br />

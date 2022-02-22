@@ -507,7 +507,7 @@ strong {
     display: flex;
     align-items: center;
     align-content: center;
-    font-size: 1.5em;
+    font-size: 1.25em;
   }
   .entreter-content {
     display: flex;
@@ -528,10 +528,27 @@ strong {
     bottom: 0px;
     left: 0px;
   }
-
-  
-
 }
+
+
+@media (max-width: 767px) {
+.bg-piscina {
+  background-image: none;
+}
+.bg-playground {
+  background-image: none;
+}
+.bg-quadra {
+  background-image: none;
+}
+.bg-quiosque {
+  background-image: none;
+}
+.bg-salao {
+  background-image: none;
+}
+}
+
 @media (max-width: 575px) {
   .font-big {
     font-size: 2.4rem;
@@ -542,10 +559,7 @@ strong {
   .btn-red {
     width: 100%;
   }
-  .entreter-box {
-    display: block;
-    align-items: center;
-  }
+  
   .entreter-title {
     display: flex;
     align-items: center;
@@ -570,7 +584,6 @@ strong {
   }
   .bg-quiosque {
     background-image: none;
-
   }
   .bg-salao {
     background-image: none;

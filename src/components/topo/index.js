@@ -89,8 +89,8 @@ export default function Page(props) {
                 /> */}
 
               <button
-                onClick={() => window.modalRegister()}
-                className="w-3/5 flex justify-center py-3 px-4 mt-4 border border-transparent text-sm font-medium rounded-lg text-white button-cadastro"
+            onClick={() => window.modalModal()}
+            className="w-3/5 flex justify-center py-3 px-4 mt-4 border border-transparent text-sm font-medium rounded-lg text-white button-cadastro"
               >
                 Cadastre-se agora
               </button>

@@ -14,7 +14,7 @@ export default function Page() {
             <div className="w-auto md:w-1/4"></div>
             <div className="w-full md:w-3/4">
               <div>
-                <img src={descricao} className="w-auto md:w-full" />
+                <img src={descricao} className="w-auto " />
               </div>
 
               <div className="items-center">
@@ -50,7 +50,7 @@ export default function Page() {
         </Fade>
 
         <div className="w-auto justify-items-center mt-8 md:mt-14">
-          <img src={lar} className="descricao-image" width="700" />
+          <img src={lar} className="descricao-image w-auto md:w-1/2" />
         </div>
       </div>
     </ScrollableAnchor>
