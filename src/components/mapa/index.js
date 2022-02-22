@@ -17,8 +17,8 @@ export default function Page(props) {
             </div>
 
             <div className="family-light-italic font-blue font-normal mapa-desc">
-            <br />
-              Supermercados, parques, farmácias e muita <br/>
+              <br />
+              Supermercados, parques, farmácias e muita <br />
               qualidade de vida, pertinho de você...
             </div>
 
@@ -42,13 +42,15 @@ export default function Page(props) {
                   nº 1330, Terramérica - SP
                 </div>
               </div>
-              <div className="w-full flex justify-center mt-12 pl-4 pr-10 md:pr-4">
-              <button className="w-screen md:w-2/3 flex justify-center py-3 px-4 mt-4 md:mt-8 border border-transparent text-sm font-medium rounded-lg text-white button-cadastro">
-                Cadastre-se agora
-              </button>
+              <div className="w-full flex justify-start mt-12 pr-10 md:pr-4">
+                <button
+                  onClick={() => window.modalModal()}
+                  className="w-screen md:w-2/4 flex justify-center py-3 px-4 mt-4 md:mt-8 border border-transparent text-sm font-medium rounded-lg text-white button-cadastro"
+                >
+                  Cadastre-se agora
+                </button>
+              </div>
             </div>
-            </div>
-
           </div>
 
           <div class="flex w-screen py-0 md:py-4 justify-center">

@@ -5,7 +5,6 @@ import { Fade } from 'react-reveal'
 
 import infos from '../../assets/file/Infos.png'
 
-
 export default function Page(props) {
   const [isMobile, setMobile] = useState(false)
   useEffect(() => {
@@ -17,7 +16,7 @@ export default function Page(props) {
   }, [window.innerWidth])
   return (
     <ScrollableAnchor id={'família'}>
-      <div className="flex familia w-full">
+      <div className="flex familia w-full pb-24">
         <div className="w-auto md:w-1/2"></div>
         <Fade>
           <div className="flex flex-col w-full md:w-1/2 p-4 md:p-0">
@@ -43,8 +42,10 @@ export default function Page(props) {
               <img src={infos} width="480" />
             </div>
 
-
-            <button className="w-1/2 md:w-2/4 lg:w-3/5 flex justify-center py-3 mt-6 border border-transparent text-sm font-medium rounded-lg text-white button-cadastro">
+            <button
+              onClick={() => window.modalModal()}
+              className="w-1/2 md:w-2/4 lg:w-3/5 flex justify-center py-3 mt-6 border border-transparent text-sm font-medium rounded-lg text-white button-cadastro"
+            >
               Cadastre-se agora
             </button>
           </div>

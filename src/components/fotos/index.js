@@ -9,7 +9,6 @@ import foto3 from '../../assets/static/img3.jpeg'
 import foto4 from '../../assets/static/img4.jpeg'
 import foto5 from '../../assets/static/img5.jpeg'
 
-
 export default function Page(props) {
   const btnScrollTop = useRef(null)
   const [showBtn, setShowBtn] = useState(false)
@@ -57,7 +56,10 @@ export default function Page(props) {
         </div>
 
         <div className="w-full flex justify-center mt-12 pl-14 md:pl-4 pr-14 md:pr-4">
-          <button className="w-full md:w-1/3 flex justify-center py-3 px-4 mt-4 border border-transparent text-sm font-medium rounded-lg text-white button-cadastro">
+          <button
+            onClick={() => window.modalModal()}
+            className="w-full md:w-1/3 flex justify-center py-3 px-4 mt-4 border border-transparent text-sm font-medium rounded-lg text-white button-cadastro"
+          >
             Cadastre-se agora
           </button>
         </div>

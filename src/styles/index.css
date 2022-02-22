@@ -210,11 +210,10 @@ a {
 }
 .familia {
   background-color: #f5f5f2;
-  background: url(../assets/background/bg-familia.png) bottom center no-repeat;
-  height: 100vh;
+  background: url(../assets/background/bg-familia.jpeg) bottom center no-repeat;
 }
 .entreter {
-  background: url(../assets/background/bg-entreter.png) top center no-repeat;
+  background: url(../assets/background/bg-entreter.jpeg) top center no-repeat;
   background-size: cover;
 }
 .plantas {
@@ -260,7 +259,7 @@ a {
 .descricao-image {
   position: absolute;
   margin-top: -100px;
-  margin-left: -3rem;
+  margin-left: 0;
 }
 
 .box-planta {
@@ -395,6 +394,40 @@ strong {
   z-index: 999;
 }
 
+.w3-modal-content {
+  border-radius: 2em;
+}
+
+.w3-container {
+  padding: 2em 2em 0.8em;
+}
+
+.modal-cancel {
+    background-image: none;
+    border: none;
+    box-shadow: none;
+    text-shadow: none;
+    background-color: #EEEEEE;
+    border-color: #ECECEC;
+    border-radius: 0px;
+    border-width: 1px;
+    border-style: solid;
+    color: #CCCCCC;
+    height: 42px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0em;
+    line-height: 1;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    margin-top: 0;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+}
 
 
 @media (max-width: 1400px) {
@@ -427,8 +460,7 @@ strong {
 
   .familia {
     background-color: #f5f5f2;
-    background: url(../assets/background/bg-familia.png) bottom center no-repeat;
-    height: 105vh;
+    background: url(../assets/background/bg-familia.jpeg) bottom center no-repeat;
   }
   .button-cadastro {
     background-color: #7b183f;
