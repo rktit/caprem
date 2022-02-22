@@ -132,7 +132,7 @@ export default function Page(props) {
               </div>
             </div>
 
-            <div className="w-full flex justify-center mt-12 mb-24 pr-48 md:pr-4">
+            <div className="w-full flex justify-center mt-12 mb-24 pl-8 md:pl-0 pr-8 md:pr-4">
               <button
                 onClick={() => window.modalModal()}
                 className="w-full md:w-1/3 flex justify-center py-3 px-4 mt-4 border border-transparent text-sm font-medium rounded-lg text-white button-cadastro"

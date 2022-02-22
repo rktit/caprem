@@ -42,7 +42,7 @@ export default function Page(props) {
                   nº 1330, Terramérica - SP
                 </div>
               </div>
-              <div className="w-full flex justify-start mt-12 pr-10 md:pr-4">
+              <div className="w-full flex justify-start mt-12 pl-6 md:pl-0 pr-8 md:pr-4">
                 <button
                   onClick={() => window.modalModal()}
                   className="w-screen md:w-2/4 flex justify-center py-3 px-4 mt-4 md:mt-8 border border-transparent text-sm font-medium rounded-lg text-white button-cadastro"

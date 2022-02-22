@@ -41,14 +41,16 @@ export default function Page(props) {
             <div className="mt-6">
               <img src={infos} width="480" />
             </div>
-
-            <button
-              onClick={() => window.modalModal()}
-              className="w-1/2 md:w-2/4 lg:w-3/5 flex justify-center py-3 mt-6 border border-transparent text-sm font-medium rounded-lg text-white button-cadastro"
-            >
-              Cadastre-se agora
-            </button>
+            <div className="w-full flex justify-center md:justify-start mt-12 pl-10 md:pl-0 pr-10 md:pr-40">
+          <button
+            onClick={() => window.modalModal()}
+            className="w-full md:w-3/6 flex justify-center py-3 px-4 mt-4 border border-transparent text-sm font-medium rounded-lg text-white button-cadastro"
+          >
+            Cadastre-se agora
+          </button>
+        </div>
           </div>
+
         </Fade>
       </div>
     </ScrollableAnchor>

@@ -35,12 +35,12 @@ export default function Page(props) {
 
   return (
     <ScrollableAnchor id={'home'}>
-      <div className="topo pb-0 md:pb-12">
+      <div className="topo pb-14 md:pb-12 pt-4 md:pt-0">
         <Fade>
           <div className="flex flex-col ml-2 md:ml-24">
             <img
               src={morada}
-              className="ml-0 md:ml-12 mt-0 md:mt-4"
+              className="ml-0 md:ml-12 mt-14 md:mt-4"
               width="600 sm:300"
             />
 
@@ -51,7 +51,7 @@ export default function Page(props) {
               </div>
             </div>
 
-            <div className="w-5/6 md:w-10/12 lg:w-8/12 pl-6 md:pl-14 pr-6 md:pr-20 lg:pr-64 mt-14 md:mt-20 pb-4 md:pb-0">
+            <div className="w-full flex justify-center md:justify-start mt-12 pl-12 md:pl-0 pr-12 md:pr-40">
               {/* <form action="form-page" method="post"> */}
               {/* <label for="name" className="font-red family-bold ml-2 w-full">
                   Nome:*
@@ -89,8 +89,8 @@ export default function Page(props) {
                 /> */}
 
               <button
-            onClick={() => window.modalModal()}
-            className="w-3/5 flex justify-center py-3 px-4 mt-4 border border-transparent text-sm font-medium rounded-lg text-white button-cadastro"
+                onClick={() => window.modalModal()}
+                className="w-full md:w-3/6 flex justify-center py-3 px-4 mt-4 border border-transparent text-sm font-medium rounded-lg text-white button-cadastro"
               >
                 Cadastre-se agora
               </button>
