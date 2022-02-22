@@ -14,7 +14,7 @@ export default function Page() {
             <div className="w-auto md:w-1/4"></div>
             <div className="w-full md:w-3/4">
               <div>
-                <img src={descricao} className="w-auto " />
+                <img src={descricao} className="w-auto" />
               </div>
 
               <div className="items-center">
