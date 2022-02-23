@@ -2,13 +2,15 @@ import React from "react";
 import { configureAnchors } from "react-scrollable-anchor";
 
 import {
-  Topo,
-  Familia,
-  Entreter,
-  Descrição,
-  Fotos,
-  Plantas,
-  Mapa,
+  SaibaMais,
+
+  // Topo,
+  // Familia,
+  // Entreter,
+  // Descrição,
+  // Fotos,
+  // Plantas,
+  // Mapa,
   Rodape,
 } from "../../components";
 
@@ -17,13 +19,15 @@ const Home_Page = () => {
 
   return (
     <div>
-      <Topo />
+      <SaibaMais />
+
+      {/* <Topo />
       <Familia />
       <Entreter />
       <Descrição />
       <Fotos />
       <Plantas />
-      <Mapa />
+      <Mapa /> */}
       <Rodape />
     </div>
   );

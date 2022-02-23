@@ -39,7 +39,7 @@ export default function Page(props) {
                 <img src={facebook} alt="facebook" />
               </a>
               <a className="w-8 md:w-12 pl-2 md:pl-0 "
-                href="https://www.instagram.com/capremconstrutora/"
+                href="https://www.instagram.com/caprem.construtora/"
                 target="_blank"
                 rel="noreferrer">
                 <img src={instagram} alt="instagram" />

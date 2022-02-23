@@ -360,6 +360,12 @@ a {
   font-weight: 900;
   font-size: 1em;
 }
+.button-retornar {
+  background-color: #7b183f;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 1em;
+}
 .bars-tecnology {
   animation-name: slidein;
 }
@@ -550,6 +556,7 @@ strong {
 }
 }
 
+
 @media (max-width: 575px) {
   .font-big {
     font-size: 2.4rem;
@@ -588,6 +595,9 @@ strong {
   }
   .bg-salao {
     background-image: none;
+  }
+  .plantas {
+    background: url(../assets/background/bg-planta.jpeg)  center no-repeat;
   }
 }
 
