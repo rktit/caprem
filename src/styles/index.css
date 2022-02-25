@@ -264,7 +264,6 @@ a {
 }
 
 .box-planta {
-  padding: 2em;
   background-color: #fff;
   border-radius: 3rem;
   line-height: 150%;
@@ -436,6 +435,14 @@ strong {
     padding-bottom: 5px !important;
 }
 
+.splide__pagination__page.is-active {
+  background-color: #7b183f !important;
+}
+
+.splide__arrow svg {
+  fill: #7b183f !important;
+}
+
 
 @media (max-width: 1400px) {
 }
@@ -494,9 +501,8 @@ strong {
     background: url(../assets/background/bg-planta.jpeg) top center no-repeat;
   }
   .box-planta {
-    padding: 0.5em;
     background-color: #fff;
-    border-radius: 3rem;
+    border-radius: 1rem;
     line-height: 150%;
   }
   .planta-info {

@@ -43,11 +43,13 @@ export default function Page(props) {
                 </div>
               </div>
 
-
-              <a className="noHover" target="_blank" href='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3678.968249669391!2d-47.348293784995604!3d-22.766559538605932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c899edd4273949%3A0x2879b5155c9defd0!2sResidencial%20Morada%20do%20Porto!5e0!3m2!1sen!2sbr!4v1645568878196!5m2!1sen!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy'>
-                  <img className="w-5/8 md:w-0" src={mapa}/><br/>
-                  </a>
-
+              <a
+                className="noHover"
+                target="_blank"
+                href='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3678.968249669391!2d-47.348293784995604!3d-22.766559538605932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c899edd4273949%3A0x2879b5155c9defd0!2sResidencial%20Morada%20do%20Porto!5e0!3m2!1sen!2sbr!4v1645568878196!5m2!1sen!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy'
+              >
+                <img className="w-5/8 md:w-0" src={mapa} />
+              </a>
 
               <div className="w-full flex justify-start mt-12 pl-6 md:pl-0 pr-8 md:pr-4">
                 <button
@@ -60,10 +62,14 @@ export default function Page(props) {
             </div>
           </div>
 
-          <div class="flex w-screen py-0 md:py-4 justify-center">
-          <a className="noHover" target="_blank" href='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3678.968249669391!2d-47.348293784995604!3d-22.766559538605932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c899edd4273949%3A0x2879b5155c9defd0!2sResidencial%20Morada%20do%20Porto!5e0!3m2!1sen!2sbr!4v1645568878196!5m2!1sen!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy'>
-                  <img src={mapa}/><br/>
-                  </a>
+          <div class="flex w-full py-0 md:py-4 justify-center">
+            <a
+              className="noHover"
+              target="_blank"
+              href='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3678.968249669391!2d-47.348293784995604!3d-22.766559538605932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c899edd4273949%3A0x2879b5155c9defd0!2sResidencial%20Morada%20do%20Porto!5e0!3m2!1sen!2sbr!4v1645568878196!5m2!1sen!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy'
+            >
+              <img src={mapa} width="100%" />
+            </a>
           </div>
         </Fade>
       </div>
