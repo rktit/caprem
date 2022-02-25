@@ -1,8 +1,11 @@
 import React, { useEffect, useRef, useState } from 'react'
 import ScrollableAnchor from 'react-scrollable-anchor'
 
-import { Fade } from 'react-reveal'
-import planta from '../../assets/static/planta.png'
+import plantah1 from '../../assets/static/planta-h-1.jpg'
+import plantah2 from '../../assets/static/planta-h-2.jpg'
+import plantat1 from '../../assets/static/planta-t-1.jpg'
+import plantat2 from '../../assets/static/planta-t-2.jpg'
+
 import botao53 from '../../assets/static/botao53.png'
 import botao68 from '../../assets/static/botao68.png'
 
@@ -42,69 +45,30 @@ export default function Page(props) {
 
               <div className="flex w-full justify-center align-center">
                 <div className="flex w-full md:w-10/12 mt-0 md:mt-8">
-                  {isMobile ? (
-                    <Splide
-                      className="splide-badges col-12"
-                      options={{
-                        rewind: true,
-                        width: '100%',
-                        gap: '0rem',
-                        perPage: 1,
-                        pagination: true,
-                        arrows: false,
-                      }}
-                    >
-                      <SplideSlide className="splideIcon">
-                        <img src={planta} />
-                      </SplideSlide>
-                      <SplideSlide className="splideIcon">
-                        <img src={planta} />
-                      </SplideSlide>
-                      <SplideSlide className="splideIcon">
-                        <img src={planta} />
-                      </SplideSlide>
-                      <SplideSlide className="splideIcon">
-                        <img src={planta} />
-                      </SplideSlide>
-                      <SplideSlide className="splideIcon">
-                        <img src={planta} />
-                      </SplideSlide>
-                      <SplideSlide className="splideIcon">
-                        <img src={planta} />
-                      </SplideSlide>
-                    </Splide>
-                  ) : (
-                    <Splide
-                      className="splide-badges col-12"
-                      options={{
-                        rewind: true,
-                        width: '100%',
-                        gap: '0rem',
-                        perPage: 1,
-                        pagination: false,
-                        arrows: true,
-                      }}
-                    >
-                      <SplideSlide className="splideIcon">
-                        <img src={planta} />
-                      </SplideSlide>
-                      <SplideSlide className="splideIcon">
-                        <img src={planta} />
-                      </SplideSlide>
-                      <SplideSlide className="splideIcon">
-                        <img src={planta} />
-                      </SplideSlide>
-                      <SplideSlide className="splideIcon">
-                        <img src={planta} />
-                      </SplideSlide>
-                      <SplideSlide className="splideIcon">
-                        <img src={planta} />
-                      </SplideSlide>
-                      <SplideSlide className="splideIcon">
-                        <img src={planta} />
-                      </SplideSlide>
-                    </Splide>
-                  )}
+                  <Splide
+                    className="splide-badges col-12"
+                    options={{
+                      rewind: true,
+                      width: '100%',
+                      gap: '0rem',
+                      perPage: 1,
+                      pagination: isMobile,
+                      arrows: !isMobile,
+                    }}
+                  >
+                    <SplideSlide className="splideIcon">
+                      <img src={plantah1} />
+                    </SplideSlide>
+                    <SplideSlide className="splideIcon">
+                      <img src={plantat1} />
+                    </SplideSlide>
+                    <SplideSlide className="splideIcon">
+                      <img src={plantah2} />
+                    </SplideSlide>
+                    <SplideSlide className="splideIcon">
+                      <img src={plantat2} />
+                    </SplideSlide>
+                  </Splide>
                 </div>
               </div>
 
