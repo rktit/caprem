@@ -102,7 +102,7 @@ export default function Page(props) {
         <div className="fixed right-10 md:right-2 bottom-24 md:bottom-18 whats-message">
           <a
             target="_blank"
-            href="https://api.whatsapp.com/send?phone=5519999521441"
+            href="https://api.whatsapp.com/send?phone=5519974139043"
           >
             <img
               className="flex items-start md:items-end mr-2 md:mr-28 w-8 md:w-12"
