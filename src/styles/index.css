@@ -207,6 +207,7 @@ a {
 .topo {
   background: url(../assets/background/bg-topo.jpeg) center no-repeat;
   background-size: cover;
+  height: 670px;
 }
 .familia {
   background-color: #f5f5f2;
@@ -217,22 +218,26 @@ a {
   background-size: cover;
 }
 .plantas {
-  background: url(../assets/background/bg-planta.jpeg) top center no-repeat;
+  background: url(../assets/background/bg-planta.jpeg) center no-repeat;
+  padding-top: 4rem;
 }
 .mapa {
-  background: url(../assets/background/bg-mapa.jpeg) center no-repeat;
+  background: url(../assets/background/mapa.png) center no-repeat;
   background-size: cover;
 }
 
 
 
 .title-topo {
+  color: #7b183f;
   font-size: 3rem;
+  margin-top: -60px;
 }
 .topo-img-vida {
   position: absolute;
-  margin-top: -72px;
+  margin-top: -76px;
   margin-left: 180px;
+  width: 20rem;
 }
 
 .entreter-box {
@@ -255,12 +260,8 @@ a {
 
 .descricao-text {
   font-size: 1.5em;
-}
-.descricao-image {
-  position: absolute;
-  margin-top: -100px;
-  margin-left: 0;
-  height: 80%;
+  color: #45506e;
+  font-family: "JosefinSans-medium";
 }
 
 .box-planta {
@@ -292,16 +293,60 @@ a {
   line-height: 120%;
 }
 
-.bg-familia {
-  background: url(../assets/file/lar.png) center no-repeat;
+.button-mapa {
+  border-width: 1px;
+  border-color: #7d8392;
+  background-color: transparent;
+  font-family: "JosefinSans-LightItalic";
+  font-size: 1em;
+  color: gray;
+  width: 8rem;
+  height: 2rem;
+  border-radius: 1rem;
+}
+
+.button-53 {
+  border-top-right-radius: 1.5rem; 
+  border-bottom-right-radius: 1.5rem; 
+  border-top-left-radius: 1.5rem; 
+  border-width: 1px;
+  border-color: #7b183f;
+  background-color: #7b183f;
+  color: white;
+  font-family: "JosefinSans-Light";
+  font-size: 1.8em;
+}
+.button-53:active {
+  background-color: #c99f8d;
+}
+.button-68:active {
+  background-color: #7b183f;
+}
+.button-68 {
+  border-top-left-radius: 1.5rem; 
+  border-bottom-left-radius: 1.5rem; 
+  border-top-right-radius: 1.5rem; 
+  border-width: 1px;
+  border-color: #c99f8d;
+  background-color: #c99f8d;
+  color: white;
+  font-family: "JosefinSans-Light";
+  font-size: 1.8em;
 }
 .bg-plantas {
   display: flex;
   justify-content: center;
   align-items: center;
   background: url(../assets/file/Plantas.png) top no-repeat;
-  height: 124px;
-  font-size: 3em;
+  height: 160px;
+}
+.bg-familia {
+  background: url(../assets/file/lar.png) center no-repeat;
+}
+.bg-descricao {
+  display: flex;
+  background: url(../assets/background/descricao.jpeg) right center no-repeat;
+  height: 60rem;
 }
 .bg-piscina {
   background: url(../assets/file/piscina.png) left no-repeat;
@@ -365,6 +410,8 @@ a {
   font-weight: 900;
   font-size: 1em;
 }
+
+
 .bars-tecnology {
   animation-name: slidein;
 }
@@ -463,15 +510,7 @@ strong {
     background: url(../assets/background/bg-topo.jpeg) no-repeat;
     background-size: cover;
   }
-  .title-topo {
-    font-size: 1.8rem;
-  }
-  .topo-img-vida {
-    position: absolute;
-    margin-top: -40px;
-    margin-left: 130px;
-  }
-
+  
   .familia {
     background-color: #f5f5f2;
     background: url(../assets/background/bg-familia.jpeg) bottom center no-repeat;
@@ -498,7 +537,8 @@ strong {
   }
 
   .plantas {
-    background: url(../assets/background/bg-planta.jpeg) top center no-repeat;
+    background: url(../assets/background/bg-planta.jpeg)  center no-repeat;
+    padding-top: 2rem;
   }
   .box-planta {
     background-color: #fff;
@@ -529,22 +569,35 @@ strong {
   .entreter-text {
     font-size: 1.25em;
   }
-  
-    
   .descricao-text {
     font-size: 1.25em;
-  }
-  .descricao-image {
-    visibility: hidden;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
   }
 }
 
 
 @media (max-width: 767px) {
+  .title-topo {
+    color: #7b183f;
+    font-size: 2.5rem;
+    margin-top: -60px;    
+    margin-left: 130px;
+
+  }
+  .topo-img-vida {
+    position: absolute;
+    margin-top: -55px;
+    margin-left: 150px;
+    width: 16rem;
+  }
+  .topo {
+    background: url(../assets/background/bg-topo.jpeg) no-repeat;
+    background-size: auto;
+    height: 712px;
+  }
+.familia {
+  background-color: #f5f5f2;
+  background: url(../assets/background/bg-familia.jpeg) bottom right no-repeat;
+  }
 .bg-piscina {
   background-image: none;
 }
@@ -560,10 +613,94 @@ strong {
 .bg-salao {
   background-image: none;
 }
+.mapa {
+  background-image: none;
+}
+.bg-descricao {
+  background-image: none;
+}
+.descricao-text {
+  font-size: 1.8em;
+  color: #45506e;
+  font-family: "JosefinSans-medium";
+}
+.button-53 {
+  border-top-right-radius: 1.5rem; 
+  border-bottom-right-radius: 1.5rem; 
+  border-top-left-radius: 1.5rem; 
+  border-width: 1px;
+  border-color: #7b183f;
+  background-color: #7b183f;
+  color: white;
+  font-family: "JosefinSans-Light";
+  font-size: 1.5em;
+}
+.button-53:active {
+  background-color: #c99f8d;
+}
+.button-68:active {
+  background-color: #7b183f;
+}
+.button-68 {
+  border-top-left-radius: 1.5rem; 
+  border-bottom-left-radius: 1.5rem; 
+  border-top-right-radius: 1.5rem; 
+  border-width: 1px;
+  border-color: #c99f8d;
+  background-color: #c99f8d;
+  color: white;
+  font-family: "JosefinSans-Light";
+  font-size: 1.5em;
+}
+.plantas {
+  background: url(../assets/background/bg-planta.jpeg)  center no-repeat;
+  padding-top: 2rem;
+}
 }
 
 
 @media (max-width: 575px) {
+  .button-53 {
+    font-family: "JosefinSans-Light";
+    background: #7b183f;
+    margin-top: -38px;
+    margin-right: 0.5rem;
+    padding-left: 3rem ;
+    padding-right: 3rem ;
+    font-size: 1em;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    color: white;
+  }
+  .button-68 :active {
+    background: #7b183f;
+  }
+  .button-53 :active {
+    background: #c99f8d;
+  }
+  .button-68 {
+    font-family: "JosefinSans-Light";
+    background: #c99f8d;
+    margin-top: -38px;
+    margin-left: 0.5rem;
+    font-size: 1em;
+    padding-left: 3rem ;
+    padding-right: 3rem ;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem; 
+    color: white;
+  }
+  .bg-plantas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../assets/file/Plantas.png) top no-repeat;
+    height: 160px;
+  }
+  .plantas {
+    background: url(../assets/background/bg-planta.jpeg)  center no-repeat;
+    padding-top: 2rem;
+  }
   .font-big {
     font-size: 2.4rem;
   }
@@ -573,7 +710,6 @@ strong {
   .btn-red {
     width: 100%;
   }
-  
   .entreter-title {
     display: flex;
     align-items: center;
@@ -586,6 +722,22 @@ strong {
   }
   .entreter-text {
     font-size: 1.25em;
+  }
+  .title-topo {
+    color: #7b183f;
+    font-size: 1.5rem;
+    margin-top: 70px;
+    margin-left: 70px;
+  }
+  .topo-img-vida {
+    position: absolute;
+    margin-top: -38px;
+      width: 10rem;
+  }
+  .topo {
+    background: url(../assets/background/bg-topo.jpeg) no-repeat;
+    background-size: cover;
+    height: 100vh;
   }
   .bg-piscina {
     background-image: none;
@@ -602,8 +754,26 @@ strong {
   .bg-salao {
     background-image: none;
   }
-  .plantas {
-    background: url(../assets/background/bg-planta.jpeg)  center no-repeat;
+  .mapa {
+    background-image: none;
+  }
+  .mapa-title {
+    font-size: 1.5em;
+  }
+  .mapa-desc {
+    font-size: 1.5em;
+  }
+  .mapa-phone {
+    font-size: 2em;
+  }
+  .mapa-address {
+    font-size: 1.5em;
+    line-height: 120%;
+  }
+  .descricao-text {
+    font-size: 1.25em;
+    color: #45506e;
+    font-family: "JosefinSans-medium";
   }
 }
 

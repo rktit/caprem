@@ -23,7 +23,7 @@ export default function Page(props) {
             <div className="flex mt-12 md:mt-24">
               <div className="bg-familia">
                 <strong className="font-regular md:font-lg font-red family-medium md:family-regular text-left">
-                  Lar e Lazer para toda a família!
+                  Lar e lazer para toda a família!
                 </strong>
               </div>
             </div>

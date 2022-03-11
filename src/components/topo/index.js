@@ -35,23 +35,23 @@ export default function Page(props) {
 
   return (
     <ScrollableAnchor id={'home'}>
-      <div className="topo pb-14 md:pb-12 pt-4 md:pt-0">
+      <div className="topo pb-6 md:pb-12 pt-4 md:pt-0">
         <Fade>
           <div className="flex flex-col ml-2 md:ml-24">
             <img
               src={morada}
-              className="ml-0 md:ml-12 mt-14 md:mt-4"
+              className="ml-0 sm:ml-8 md:ml-12 mt-8 sm:mt-0 md:mt-4"
               width="600 sm:300"
             />
 
-            <div className="">
-              <div className="font-red family-regular ml-6 md:ml-14 title-topo">
+            <div className="pb-12 pt-4">
+              <div className="family-regular title-topo">
                 O Porto Seguro da
-                <img src={vida} className="w-40 md:w-80 pb-12 topo-img-vida" />
+                <img src={vida} className="topo-img-vida" />
               </div>
             </div>
 
-            <div className="w-full flex justify-center md:justify-start mt-12 pl-12 md:pl-0 pr-12 md:pr-40">
+            <div className="w-full flex justify-center md:justify-start pl-12 md:pl-0 pr-12 md:pr-40">
               {/* <form action="form-page" method="post"> */}
               {/* <label for="name" className="font-red family-bold ml-2 w-full">
                   Nome:*
@@ -99,7 +99,7 @@ export default function Page(props) {
           </div>
         </Fade>
 
-        <div className="fixed right-10 md:right-2 bottom-24 md:bottom-18 whats-message">
+        <div className="fixed right-10 md:right-2 bottom-8 md:bottom-18 whats-message">
           <a
             target="_blank"
             href="https://api.whatsapp.com/send?phone=5519974139043"
