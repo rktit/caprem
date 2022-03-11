@@ -61,8 +61,8 @@ export default function Page(props) {
               </div>
             </div>
           </div>
-          <div class="relative">
-            <div className="absolute bottom-36 md:bottom-32 right-24 md:right-64">
+          <div class="static">
+            <div className="relative">
               <a
                 className="flex justify-center items-center rounded-lg button-mapa"
                 target="_blank"

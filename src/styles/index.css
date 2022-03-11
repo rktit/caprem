@@ -227,43 +227,6 @@ a {
 }
 
 
-
-.title-topo {
-  color: #7b183f;
-  font-size: 3rem;
-  margin-top: -60px;
-}
-.topo-img-vida {
-  position: absolute;
-  margin-top: -76px;
-  margin-left: 180px;
-  width: 20rem;
-}
-
-.entreter-box {
-  display: flex;
-  align-items: center;
-}
-.entreter-title {
-  display: flex;
-  align-items: center;
-  align-content: center;
-  font-size: 2.25em;
-}
-.entreter-content {
-  display: flex;
-  flex-direction: column;
-}
-.entreter-text {
-  font-size: 1.7em;
-}
-
-.descricao-text {
-  font-size: 1.5em;
-  color: #45506e;
-  font-family: "JosefinSans-medium";
-}
-
 .box-planta {
   background-color: #fff;
   border-radius: 3rem;
@@ -303,6 +266,44 @@ a {
   width: 8rem;
   height: 2rem;
   border-radius: 1rem;
+  margin-top: 500px;
+  margin-right: 160px;
+}
+
+.title-topo {
+  color: #7b183f;
+  font-size: 3rem;
+  margin-top: -60px;
+}
+.topo-img-vida {
+  position: absolute;
+  margin-top: -76px;
+  margin-left: 180px;
+  width: 20rem;
+}
+
+.entreter-box {
+  display: flex;
+  align-items: center;
+}
+.entreter-title {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  font-size: 2.25em;
+}
+.entreter-content {
+  display: flex;
+  flex-direction: column;
+}
+.entreter-text {
+  font-size: 1.7em;
+}
+
+.descricao-text {
+  font-size: 1.5em;
+  color: #45506e;
+  font-family: "JosefinSans-medium";
 }
 
 .button-53 {

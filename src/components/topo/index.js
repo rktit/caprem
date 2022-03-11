@@ -52,49 +52,13 @@ export default function Page(props) {
             </div>
 
             <div className="w-full flex justify-center md:justify-start pl-12 md:pl-0 pr-12 md:pr-40">
-              {/* <form action="form-page" method="post"> */}
-              {/* <label for="name" className="font-red family-bold ml-2 w-full">
-                  Nome:*
-                </label>
-                <br />
-                <input
-                  type="text"
-                  id="name"
-                  name="user_name"
-                  className="formulario font-blue family-bold px-4 py-2 mb-3 w-full"
-                  placeholder="Digite seu nome"
-                />
-
-                <label for="tel" className="font-red family-bold ml-2 w-full">
-                  Whatsapp:*
-                </label>
-                <br />
-                <input
-                  id="tel"
-                  name="user_message"
-                  className="formulario font-blue family-bold px-4 py-2 mb-3 w-full"
-                  placeholder="(xx)xxxxx-xxxx"
-                />
-                <br />
-                <label for="mail" className="font-red family-bold ml-2 w-full">
-                  E-mail:*
-                </label>
-                <br />
-                <input
-                  type="email"
-                  id="mail"
-                  name="user_email"
-                  className="formulario font-blue family-bold px-4 py-2 mb-3 w-full"
-                  placeholder="Digite seu email"
-                /> */}
-
+            
               <button
                 onClick={() => window.modalModal()}
                 className="w-full md:w-3/6 flex justify-center py-3 px-4 mt-4 border border-transparent text-sm font-medium rounded-lg text-white button-cadastro"
               >
                 Cadastre-se agora
               </button>
-              {/* </form> */}
             </div>
           </div>
         </Fade>
