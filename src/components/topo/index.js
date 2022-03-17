@@ -40,22 +40,22 @@ export default function Page(props) {
           <div className="flex flex-col ml-2 md:ml-24">
             <img
               src={morada}
-              className="flex-auto"
-              width="450 lg:600 md:600 sm:300"
+              className="flex-auto pt-10 md:pt-0 2xl:pt-10"
+              width="600 sm:300 md:450"
             />
 
-            <div className="pb-8 pt-0 md:pt-0 2xl:pt-10">
+            <div className="pb-10 md:pb-4 2xl:pb-16 pt-16 md:pt-10 2xl:pt-10">
               <div className="family-regular title-topo">
                 O Porto Seguro da
                 <img src={vida} className="topo-img-vida" />
               </div>
             </div>
 
-            <div className="w-full flex justify-center md:justify-start pl-12 md:pl-0 pr-12 md:pr-40">
+            <div className="w-full flex-auto justify-center md:justify-start pl-12 md:pl-0 pr-12 md:pr-40">
             
               <button
                 onClick={() => window.modalModal()}
-                className="w-full md:w-3/6 flex justify-center py-3 px-4 mt-4 border border-transparent text-sm font-medium rounded-lg text-white button-cadastro"
+                className="w-full md:w-3/6 flex justify-center py-3 px-4 border border-transparent text-sm font-medium rounded-lg text-white button-cadastro"
               >
                 Cadastre-se agora
               </button>
