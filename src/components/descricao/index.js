@@ -2,7 +2,7 @@ import React from 'react'
 import { Fade } from 'react-reveal'
 import ScrollableAnchor, { goToAnchor } from 'react-scrollable-anchor'
 
-import descricao from '../../assets/file/descricao_1.png'
+import descricao from '../../assets/file/descricao.png'
 
 export default function Page() {
   return (
@@ -12,7 +12,7 @@ export default function Page() {
             <div className="flex flex-col">
               <div>
               <div className="pl-2 md:pl-10 pt-4 md:pt-64">
-                <img src={descricao} className="w-auto md:w-2/3" />
+                <img src={descricao} className="w-auto" />
               </div>
 
                 <div className="descricao-text pl-10 md:pl-24 pt-6 pr-4 md:pr-0">
@@ -37,11 +37,11 @@ export default function Page() {
                   </div>
 
                   <div>
-                    • pontos para Ar-condicionado;
+                    • Pontos para Ar-condicionado;
                     <br />
-                    • laje Técnica;
+                    • Laje Técnica;
                     <br />
-                    • varanda.
+                    • Varanda.
                   </div>
                 </div>
               </div>

@@ -68,7 +68,7 @@ export default function Page(props) {
                 target="_blank"
                 href='https://www.google.com/maps/place/R.+Padre+Oswaldo+V.+de+Andrade,+581+-+Jardim+Terram%C3%A9rica+II,+Americana+-+SP,+13468-850/@-22.7686394,-47.3573743,16z/data=!4m5!3m4!1s0x94c89942f7566abb:0xc5019f60e9ad2559!8m2!3d-22.7686394!4d-47.3529969?hl=pt-BR" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy'
               >
-                Abrir mapa
+                Abrir Mapa
               </a>
             </div>
           </div>
