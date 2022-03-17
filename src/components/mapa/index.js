@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { Fade } from 'react-reveal'
 import ScrollableAnchor, { goToAnchor } from 'react-scrollable-anchor'
 
-import mapa from '../../assets/background/bg-mapa.jpeg'
+import mapa from '../../assets/static/mapa.jpg'
 import whatsapp from '../../assets/icon/whats.png'
 
 export default function Page(props) {

@@ -207,7 +207,6 @@ a {
 .topo {
   background: url(../assets/background/bg-topo.jpeg) center no-repeat;
   background-size: cover;
-  height: 670px;
 }
 .familia {
   background-color: #f5f5f2;
@@ -345,7 +344,6 @@ a {
   background: url(../assets/file/lar.png) center no-repeat;
 }
 .bg-descricao {
-  display: flex;
   background: url(../assets/background/descricao.jpeg) right center no-repeat;
   height: 60rem;
 }
@@ -493,6 +491,17 @@ strong {
 
 
 @media (max-width: 1400px) {
+  .title-topo {
+    color: #7b183f;
+    font-size: 3rem;
+    margin-top: -60px;
+    margin-left: 30px;
+  }
+  .topo-img-vida {
+    position: absolute;
+    margin-top: -78px;
+    width: 20rem;
+  }
 }
 @media (max-width: 991px) {
 }
@@ -508,7 +517,7 @@ strong {
   }
 
   .topo {
-    background: url(../assets/background/bg-topo.jpeg) no-repeat;
+    background: url(../assets/background/bg-topo.jpeg) center no-repeat;
     background-size: cover;
   }
   
@@ -619,6 +628,7 @@ strong {
 }
 .bg-descricao {
   background-image: none;
+  margin-bottom: -400px;
 }
 .descricao-text {
   font-size: 1.8em;
@@ -726,20 +736,23 @@ strong {
   }
   .title-topo {
     color: #7b183f;
-    font-size: 1.5rem;
-    margin-top: 70px;
+    font-size: 2rem;
+    margin-top: -40px;
     margin-left: 70px;
   }
   .topo-img-vida {
     position: absolute;
     margin-top: -38px;
-      width: 10rem;
+    width: 10rem;
   }
   .topo {
     background: url(../assets/background/bg-topo.jpeg) no-repeat;
     background-size: cover;
     height: 100vh;
   }
+  .bg-descricao {
+  background-image: none;
+}
   .bg-piscina {
     background-image: none;
   }
@@ -776,6 +789,25 @@ strong {
     color: #45506e;
     font-family: "JosefinSans-medium";
   }
+}
+@media (max-width: 395px) {
+
+.title-topo {
+  color: #7b183f;
+  font-size: 1.8rem;
+  margin-top: -10px;
+  margin-left: 50px;
+}
+.topo-img-vida {
+  position: absolute;
+  margin-top: -38px;
+  margin-left: 120px;
+  width: 10rem;
+}
+.bg-descricao {
+  background-image: none;
+  margin-bottom: -440px;
+}
 }
 
 /* SCROLLBAR */

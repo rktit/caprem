@@ -35,16 +35,16 @@ export default function Page(props) {
 
   return (
     <ScrollableAnchor id={'home'}>
-      <div className="topo pb-6 md:pb-12 pt-4 md:pt-0">
+      <div className="topo h-screen	pb-6 md:pb-12 pt-4 md:pt-0">
         <Fade>
           <div className="flex flex-col ml-2 md:ml-24">
             <img
               src={morada}
-              className="ml-0 sm:ml-8 md:ml-12 mt-8 sm:mt-0 md:mt-4"
-              width="600 sm:300"
+              className="flex-auto"
+              width="450 lg:600 md:600 sm:300"
             />
 
-            <div className="pb-12 pt-4">
+            <div className="pb-8 pt-0 md:pt-0 2xl:pt-10">
               <div className="family-regular title-topo">
                 O Porto Seguro da
                 <img src={vida} className="topo-img-vida" />
@@ -63,7 +63,7 @@ export default function Page(props) {
           </div>
         </Fade>
 
-        <div className="fixed right-10 md:right-2 bottom-8 md:bottom-18 whats-message">
+        <div className="fixed right-10 md:right-0 bottom-8 md:bottom-18 whats-message">
           <a
             target="_blank"
             href="https://api.whatsapp.com/send?phone=5519974139043"

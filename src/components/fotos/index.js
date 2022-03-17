@@ -39,7 +39,7 @@ export default function Page(props) {
   const renderImg = (value) => {
     return (
       <SplideSlide className="d-flex justify-center items-center" style={{ display:'flex', alignSelf: 'center' }}>
-        <img src={value} className="w-auto md:w-3/5 pt-2 px-1" />
+        <img src={value} className="w-auto px-1" />
       </SplideSlide>
     )
   }
@@ -63,7 +63,16 @@ export default function Page(props) {
               {arrayFotos.map(el => { return (renderImg(el)) })}
             </Splide>
           </div>
+          <div className="w-full flex justify-center px-14 pb-10">
+          <button
+            onClick={() => window.modalModal()}
+            className="w-full flex justify-center py-3 px-4 border border-transparent text-sm font-medium rounded-lg text-white button-cadastro"
+          >
+            Cadastre-se agora
+          </button>
+        </div>
           </div>
+          
 :
     <ScrollableAnchor id={'fotos'}>
       <div className="w-full">
@@ -84,10 +93,10 @@ export default function Page(props) {
           </div>
         </div>
 
-        <div className="w-full flex justify-center pb-6 mt-12 pl-14 md:pl-4 pr-14 md:pr-4">
+        <div className="w-full flex justify-center pb-6 pt-0 md:pt-12 pl-14 md:pl-4 pr-14 md:pr-4">
           <button
             onClick={() => window.modalModal()}
-            className="w-full md:w-1/3 flex justify-center py-3 px-4 mt-4 border border-transparent text-sm font-medium rounded-lg text-white button-cadastro"
+            className="w-full md:w-1/3 flex justify-center py-3 px-4 border border-transparent text-sm font-medium rounded-lg text-white button-cadastro"
           >
             Cadastre-se agora
           </button>
