@@ -310,16 +310,16 @@ a {
   border-bottom-right-radius: 1.5rem; 
   border-top-left-radius: 1.5rem; 
   border-width: 1px;
-  border-color: #7b183f;
-  background-color: #7b183f;
+  border-color: #c99f8d;
+  background-color: #c99f8d;
   color: white;
   font-family: "JosefinSans-Light";
   font-size: 1.8em;
 }
-.button-53:active {
-  background-color: #c99f8d;
+.button-53:focus {
+  background-color: #7b183f;
 }
-.button-68:active {
+.button-68:focus {
   background-color: #7b183f;
 }
 .button-68 {
