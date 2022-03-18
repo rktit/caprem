@@ -11,8 +11,8 @@ export default function Page() {
         <Fade left>
             <div className="flex flex-col">
               <div>
-              <div className="pl-2 md:pl-10 pt-4 md:pt-64">
-                <img src={descricao} className="w-auto" />
+              <div className="pl-2 md:pl-6 pt-4 md:pt-64">
+                <img src={descricao} className="w-auto md:w-2/5" />
               </div>
 
                 <div className="descricao-text pl-10 md:pl-24 pt-6 pr-4 md:pr-0">
