@@ -5,14 +5,15 @@ import ScrollableAnchor, { goToAnchor } from 'react-scrollable-anchor'
 import descricao from '../../assets/file/descricao.png'
 
 export default function Page() {
+
   return (
     <ScrollableAnchor id={'descrição'}>
-      <div className="bg-descricao">
+      <div className="bg-descricao ">
         <Fade left>
             <div className="flex flex-col">
               <div>
               <div className="pl-2 md:pl-6 pt-4 md:pt-64">
-                <img src={descricao} className="w-auto md:w-2/5" />
+                <img src={descricao} className="w-2/3 md:w-2/5" />
               </div>
 
                 <div className="descricao-text pl-10 md:pl-24 pt-6 pr-4 md:pr-0">

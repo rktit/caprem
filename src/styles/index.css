@@ -502,6 +502,11 @@ strong {
     margin-top: -78px;
     width: 20rem;
   }
+  .bg-descricao {
+    background: url(../assets/background/descricao.jpeg) right center no-repeat;
+    height: 60rem;
+    margin-right: -200px;
+  }
 }
 @media (max-width: 991px) {
 }
@@ -785,7 +790,7 @@ strong {
     line-height: 120%;
   }
   .descricao-text {
-    font-size: 1.25em;
+    font-size: 1.5em;
     color: #45506e;
     font-family: "JosefinSans-medium";
   }
@@ -806,9 +811,13 @@ strong {
 }
 .bg-descricao {
   background-image: none;
-  margin-bottom: -440px;
+  margin-bottom: -540px;
 }
-
+.descricao-text {
+  font-size: 1em;
+  color: #45506e;
+  font-family: "JosefinSans-medium";
+}
 }
 
 /* SCROLLBAR */
