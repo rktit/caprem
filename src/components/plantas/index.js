@@ -12,11 +12,11 @@ import { getAllByTestId } from '@testing-library/react'
 
 export default function Page(props) {
   const [indexSlide, setIndexSlide] = useState(0);
-  const focusDiv = useRef();
+  // const focusDiv = useRef();
   const ref = useRef();
   const [isMobile, setMobile] = useState(false)
   useEffect(() => {
-    focusDiv.current.focus();
+    // focusDiv.current.focus();
     if (window.innerWidth >= 992) {
       setMobile(false)
     } else {
@@ -35,7 +35,7 @@ export default function Page(props) {
 
         <div className="flex justify-center">
           <div className='col-12' style={{ display: 'flex' }}>
-            <div className="w-auto flex mr-2 sm:mr-4 md:mr-6 py-2 px-24 md:px-40 mt-4 button-53" onClick={() => { moveSlide(0) }} tabIndex="0" ref={focusDiv}>Planta 53m³</div>
+            <div className="w-auto flex mr-2 sm:mr-4 md:mr-6 py-2 px-24 md:px-40 mt-4 button-53" onClick={() => { moveSlide(0) }} tabIndex="0">Planta 53m³</div>
             <div className="w-auto flex ml-2 sm:ml-4 md:ml-6 py-2 px-24 md:px-40 mt-4 button-68" onClick={() => { moveSlide(2) }} tabIndex="1">Planta 68m³</div>
           </div>
         </div>
