@@ -53,7 +53,8 @@ export default function Page(props) {
 
               <button
                 onClick={() => window.location = "https://www.caprem.com.br/morada-do-porto"}
-                className="w-5/6 md:w-1/10 flex justify-center py-3 px-4 mt-4 mb-8 border border-transparent font-medium rounded-lg text-white button-cadastro">Saiba Mais
+                className="w-5/6 md:w-1/10 flex justify-center py-3 px-4 mt-4 mb-8 border border-transparent font-medium rounded-lg text-white button-cadastro">
+                  Saiba Mais
               </button>
             </div>
           </div>
